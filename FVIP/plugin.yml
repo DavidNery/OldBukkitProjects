@@ -1,0 +1,37 @@
+name: FVip
+version: 0.1b
+author: zFork
+main: me.zfork.fvip.FVip
+
+commands:
+    darvip:
+      aliases: [givevip]
+    tirarvip:
+      aliases: [removevip, tirarvip]
+    diasvip:
+      aliases: [viptime, timevip, vipdias, tempovip]
+    gerarkey:
+      aliases: [genkey, criarkey]
+    removerkey:
+      aliases: [delkey, removekey]
+    keys:
+      aliases: [keylist, listkeys]
+    usarkey:
+      aliases: [usekey]
+    ativarvip:
+    keyinfo:
+      aliases: [infokey, keyinformation]
+    trocarvip:
+      aliases: [changevip, tvip, cvip]
+    setcabeca:
+      aliases: [sethead, headset]
+    setsign:
+      aliases: [setplaca, placaset]
+    venderkey:
+      aliases: [sellkey, keyvender, keysell]
+    comprarkey:
+      aliases: [buykey, keycomprar, keybuy]
+    cancelarvenda:
+      aliases: [cancelvenda]
+    desbanirvip:
+      aliases: [unbanvip, vipdesbanir]

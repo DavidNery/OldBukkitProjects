@@ -1,0 +1,5 @@
+name: SpartanosKits
+version: 0.1b
+author: zFork
+main: me.zfork.spartanoscraft.spartanoskits.SpartanosKits
+softdepend: [Essentials]

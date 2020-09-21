@@ -1,0 +1,27 @@
+MySQL:
+  Ativar: false
+  User: "user"
+  Password: "pass"
+  Host: "host"
+  DataBase: "db"
+
+Money: "&2Seu saldo: &f@money coins"
+Money_Outros: "&2Saldo de &f@player&2: &f@money coins"
+Enviou_Money: "&2Voce enviou &f@quantidade coins &2para &f@player"
+Recebeu_Money: "&2Voce recebeu &f@quantidade coins &2de &f@player"
+Setou_Money: "&cVoce setou o money do player &f@player &cpara &f@money coins"
+Deu_Money: "&cVoce deu &f@money coins &cpara o player &f@player"
+Tirou_Money: "&a[!] &7Voce tirou &f@money &7do player &f@player"
+Money_TOP_Titulo: "&7-----======== &2Money TOP &7=======-----"
+Money_TOP_Formato: "&7#@colocacao &f- &2@player &7: &r@money coins."
+Sem_Permissao: "&cDesculpe, você não esta permitido a utilizar este comando."
+Uso_Correto_Pay: "&cUtilize: money <pay/send> <player> <quantidade>"
+Uso_Correto_Set: "&cUtilize: money set <player> <quantidade>"
+Uso_Correto_Give: "&cUtilize: money give <player> <quantidade>"
+Uso_Correto_Take: "&cUtilize: money take <player> <quantidade>"
+Si_Mesmo: "&cVoce nao pode enviar dinheiro a si mesmo!"
+Somente_Numeros: "&cUtilize somente números!"
+Maior_Que_Zero: "&cO valor do dinheiro tem que ser maior que zero!"
+Sem_Money: "&cVoce nao tem money suficiente para fazer isso!"
+Conta_Nao_Existe: "&cEsta conta nao existe!"
+Top_Quantidade: 10

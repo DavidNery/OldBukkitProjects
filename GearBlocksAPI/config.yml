@@ -1,0 +1,31 @@
+Tab:
+  Header:
+  - "&f"
+  - "&e&lGEARBLOCKS - BUILD'S SCHOOL"
+  - "&7Turning blocks into Dreams"
+  - "&f"
+  Footer:
+  - "&f"
+  - "&fhttp://gear-blocks.com"
+  - "&fhttp://buildsschool.org"
+  - "&c[Coming Soon]"
+  - "&f"
+ScoreBoard:
+  DisplayName: "&e&lSCHOOL"
+  Linhas:
+  - "&f "
+  - "&7Rank: {rank}"
+  - "&7Data: {data}"
+  - "&7Servidor: &fSchool"
+  - "&f "
+Sem_Permissao_Tab: "&c&lGEARBLOCKS &7Você precisa de um rank &c&l[Admin] &7ou superior para utilizar este comando!"
+Sem_Permissao_Server:
+- "&f"
+- "&e&lGEARBLOCKS:"
+- "&7Servidores disponíveis para o seu rank:"
+- "&f"
+- "&cNenhum servidor disponível atualmente. Desculpe!"
+- "&cServidor Atual: School"
+- "&f"
+Chat:
+  Formato: "{tag}{player}&7: {msg}"

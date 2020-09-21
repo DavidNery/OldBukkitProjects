@@ -1,0 +1,30 @@
+Ativar_Reducao_Comando: true
+Ativar_Permissao: true
+Permissao: "farenas.arena.example"
+Ativar_BC: true
+Comandos_Liberados:
+- "/money"
+- "/arena"
+- "/g"
+- "/l"
+- "/."
+- "/megafone"
+- "/anuncio"
+- "/anunciar"
+Flags:
+- "moneyonkill 1000"
+- "dckill true"
+- "keepinventory true"
+Items:
+- "276&&1&&afiada:10-inquebravel:10-aspecto_flamejante:10&& && "
+- "322:1&&16&& && && "
+- "373:16417&&5&& && && "
+- "373:16418&&5&& && && "
+Helmet: "310&&1&&protecao:15-inquebravel:15&& && "
+Peitoral: "311&&1&&protecao:15-inquebravel:15&& && "
+Calca: "312&&1&&protecao:15-inquebravel:15&& && "
+Botas: "313&&1&&protecao:15-inquebravel:15&& && "
+Spawns:
+- "world 0 0 0 0 0"
+- "world 0 0 0 0 0"
+Exit: "world 0 0 0 0 0"

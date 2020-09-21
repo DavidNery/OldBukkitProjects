@@ -1,0 +1,14 @@
+name: Warps
+version: 0.1b
+author: zFork
+main: me.zfork.craftzone.warps.Main
+
+commands:
+    warp:
+      aliases: [tpwarp, warptp]
+    setwarp:
+      aliases: [setarwarp, warpset, warpsetar, swarp]
+    delwarp:
+      aliases: [deletarwarp, removewarp, rwarp, dwarp]
+    warps:
+      aliases: [warps, warplist, listarwarps, listarwarp, warpslist, listwarp, listwarps]

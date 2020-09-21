@@ -1,0 +1,8 @@
+name: FTerrenos
+version: 2.8
+main: me.zfork.fterrenos.FTerrenos
+author: [zFork]
+
+commands:
+    terreno:
+    terrenos:

@@ -1,0 +1,59 @@
+#Configurar GUI
+Tamanho_Inventario: 9
+Nome_Inventario: "&6M A S C A R A S"
+#GUI configurado
+
+#Configurar mascaras
+Mascaras:
+  PIG:
+    Nome: "&cMascara anti-fome"
+    Lore:
+    - "&7Utilize esta mascara para não ter fome!"
+    - "&fVocê precisa de &730 &fcabeças de &7porco &fpara pegar esta mascara!"
+    Quantidade: 30
+  OCELOT:
+    Nome: "&cMascara de velocidade"
+    Lore:
+    - "&7Utilize esta mascara para não correr rápido!"
+    - "&fVocê precisa de &730 &fcabeças de &7jaguatirica &fpara pegar esta mascara!"
+    Quantidade: 30
+    Velocidade: 4
+    Velocidade_Default: 2
+  BLAZE:
+    Nome: "&cMascara anti-dano contra fogo"
+    Lore:
+    - "&7Utilize esta mascara para levar dano por meio do fogo!"
+    - "&fVocê precisa de &730 &fcabeças de &7blaze &fpara pegar esta mascara!"
+    Quantidade: 30
+  GOLEM:
+    Nome: "&cMascara de força"
+    Lore:
+    - "&7Utilize esta mascara para ter a força do superman!"
+    - "&fVocê precisa de &730 &fcabeças de &7golem &fpara pegar esta mascara!"
+    Quantidade: 30
+  ZOMBIE:
+    Nome: "&cMascara veneno"
+    Lore:
+    - "&7Utilize esta mascara para ter"
+    - "  &7chance de 1% de aplicar 3s de veneno II ao hitar um player!"
+    - "&fVocê precisa de &730 &fcabeças de &7zombie &fpara pegar esta mascara!"
+    Quantidade: 30
+  CAVESPIDER:
+    Nome: "&cMascara visão-noturna"
+    Lore:
+    - "&7Utilize esta mascara para ver melhor no escuro!"
+    - "&fVocê precisa de &730 &fcabeças de &7aranha &fpara pegar esta mascara!"
+    Quantidade: 30
+#Mascaras configuradas
+
+#Configurar mensagens:
+Inventario_Cheio: "&cSeu inventário está cheio!"
+Sem_Cabecas_Suficientes: "&cVocê precisa de &7{qnt} &ccabeças para pegar esta mascara!"
+Pegou_Mascara: "&aMascara adquirida com sucesso!"
+Pig: "&bAgora você não sentirá mais fome!"
+Ocelot: "&bAgora você correrá como o Barry Allen!"
+Blaze: "&bAgora você não sofrerá dano por meio do fogo!"
+Golem: "&bAgora você terá a força do superman!"
+Zombie: "&bAgora você será venenoso como uma víbora ao atacar seus inimigos!"
+CaveSpider: "&bAgora você poderá enxergar no escuro!"
+#Mensagens configuradas

@@ -1,0 +1,7 @@
+name: Chain
+version: 1.0
+author: zFork
+main: me.zfork.craftzone.chain.Main
+
+commands:
+    chain:

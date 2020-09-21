@@ -1,0 +1,183 @@
+########################################
+####            By: Dery            ####
+####          Version: 1.0          ####
+########################################
+
+#Configuracao:
+Config:
+  #Auto Start:
+  Auto_Start:
+    #Ativar Auto Start:
+    Ativar: true
+    #Dias para iniciar o evento automaticamente:
+    #Dias:
+    #Segunda = Segunda;
+    #Terca = Terca;
+    #Quarta = Quarta;
+    #Quinta = Quinta;
+    #Sexta = Sexta;
+    #Sabado = Sabado;
+    #Domingo = Domingo:
+    Dias:
+    - Segunda
+    - Terca
+    - Quarta
+    - Quinta
+    - Sexta
+    - Sabado
+    - Domingo
+    #Hora para iniciar o evento:
+    #Formato: hora:minutos
+    #Formato da hora: 24 horas
+    Hora: "11:00"
+  #Tempo para as tnts cairem (Segundos):
+  Tempo_Cair: 5
+  #Quantidade de anuncios avisando que o evento esta iniciando:
+  Anuncios: 5
+  #Tempo entre os anuncios (Segundos):
+  Tempo_Entre_Anuncios: 4
+  #Quantidade minima de participantes para o evento poder iniciar:
+  Min_Participantes: 2
+  #Premio:
+  Premio: 10000.0
+  #Forcar o player de entrar no evento somente com o inventario vazio:
+  Force_Empty_Inventory: true
+  #Desativar PvP:
+  Force_PvP_Off: true
+  #Proibir o player de construir no evento:
+  Desativar_Construcoes: true
+  #Desativar o dano no evento:
+  Desativar_Damage: true
+  #Desativar teleporte durante o evento:
+  Desativar_Teleporte: true
+  #Desativar o Fly do player ao entrar no evento:
+  Force_Fly_Off: true
+  #Forcar o gamemode 0 para o player ao entrar no evento:
+  Force_GM_0: true
+  #Probibir o player de pegar itens no evento:
+  Desativar_PickUp: true
+  #Comandos liberados no evento:
+  Comandos_Liberados:
+  - g
+  - .
+  - r
+  - tell
+  - saccept
+  - sdeny
+  - desbugar
+  - tntrain sair
+  #Executar comandos ao player vencer o evento:
+  Comandos: true
+  #Coloque aqui os comandos que serao executados caso a opcao acima seja "true":
+  #Sem a "/":
+  Comandos_Executados:
+  - kit VIP {player}
+  - tell {player} Parabens ;-;
+  - effect {player} SPEED 60 1
+
+#Mensagens:
+Mensagem:
+  #Sem Permissao:
+  Sem_Permissao: "&7[!] &cVoce nao tem permissao para utilizar o comando /tntrain {cmd}!"
+  #Mensagem avisando que um player venceu o evento:
+  Venceu:
+  - ""
+  - ""
+  - "&dEvento TNTRain Finalizado!"
+  - "&dParabens ao player {ganhador}!"
+  - "&dO premio era de R${premio}!"
+  - ""
+  - ""
+  #Mensagem avisando que o evento foi finalizado:
+  Finalizado:
+  - ""
+  - ""
+  - "&dEvento TNTRain finalizado!"
+  - "&dMotivo: {motivo}"
+  - ""
+  - ""
+  #Mensagem avisando que o evento esta iniciando:
+  Anuncios:
+  - ""
+  - ""
+  - "&dEvento TNTRain iniciando!"
+  - "&dPara participar digite /tntrain entrar!"
+  - "&dQuantidade de players no Evento: {players}!"
+  - "&dEste evento e pvp OFF!"
+  - "&dRisco de morte: SIM!"
+  - "&dTempo restante: {tempo} segundos!"
+  - "&dPremio: {premio}!"
+  - ""
+  - ""
+  #Mensagem avisando que o evento foi iniciado:
+  Iniciado:
+  - ""
+  - ""
+  - "&dEvento TNTRain iniciado!"
+  - "&dBoa sorte aos participantes!"
+  - ""
+  - ""
+  #Mensagem BroadCast avisando que o player entrou no evento:
+  Entrou:
+  - ""
+  - ""
+  - "&d{player} entrou no evento TNTRain!"
+  - "&dPlayers no evento: {players}"
+  - "&dEntre voce tambem, utilize /tntrain entrar!"
+  - ""
+  - ""
+  #Mensagem avisando aos players do evento que um player saiu do evento:
+  Saiu_Evento:
+  - ""
+  - ""
+  - "&d{player} saiu do evento!"
+  - "&dPara sair utilize /tntrain sair!"
+  - ""
+  - ""
+  #Mensagem avisando ao player que o evento esta sendo parado:
+  Sendo_Parado: "&7[!] &eEvento sendo parado em {tempo} segundos!"
+  #Mensagens de Erro:
+  Erro:
+    #Caso o player tente entrar no evento e o mesmo nao esteja aberto ou ocorrendo:
+    Nao_Esta_Aberto_Ocorrendo: "&7[!] &cNo momento, o evento encontra-se fechado. Tente novamente mais tarde!"
+    #Caso o player tente entrar no evento, mas ele ja esteja no mesmo:
+    Ja_Esta: "&7[!] &cVoce ja se encontra no evento!"
+    #Caso o player tente sair do evento, mas ele nao esteja no mesmo:
+    Nao_Esta: "&7[!] &cVoce nao se encontra no evento!"
+    #Caso o staff tente iniciar o evento, mas o mesmo ja esteja acontecendo:
+    Ja_Esta_Ocorrendo: "&7[!] &cO Evento ja esta Ocorrendo!"
+    #Caso o staff tente parar o evento, mas o mesmo nao esteja acontecendo:
+    Nao_Esta_Ocorrendo: "&7[!] &cO Evento nao esta Ocorrendo!"
+    #Caso o staff tente iniciar o evento e os locais nao tenham sido setados corretamente:
+    #Quando isso acontecer verifique o arquivo "locais.yml" e veja o motivo!
+    Locais: "&7[!] &cO Evento nao pode ser iniciado devido a um erro no arquivo \"locais.yml\"!"
+    #Mensagem avisando que o comando que o player utilizou nao esta liberado:
+    Comandos_Liberados: "&7[!] &cEste comando nao pode ser usado durante o evento!"
+    #Caso o player tente entrar no evento com itens no inventario:
+    Contem_Itens: "&7[!] &cSeu inventario contem itens. Limpe-o caso queira participar do evento!"
+    #Caso um player tente entrar em combate com outro player, mas o pvp esteja desativado:
+    PvP_Desativado: "&7[!] &cO PvP esta desativado durante o evento!"
+    #Mensagem avisando ao player que nao pode construir durante o evento:
+    Proibido_Construir: "&7[!] &cVoce nao pode construir durante o evento!"
+    #Caso o player tente teleportar durante o evento:
+    Teleporte_Desativado: "&7[!] &cTeleporte desativado durante o evento!"
+  #Mensagens de Sucesso:
+  Sucesso:
+    #Mensagem avisando ao player que ele entrou no evento:
+    Entrou: "&7[!] &eVoce acaba de entrar no Evento TNTRain!"
+    #Mensagem avisando ao player que ele saiu do evento:
+    Saiu: "&7[!] &eVoce acaba de sair do Evento TNTRain!"
+    #Mensagem avisando ao player que ele venceu:
+    Venceu: "&7[!] &aParabens {player}! Voce venceu o Evento TNTRain!"
+    #Quando o spawn for setado:
+    Spawn_Setado: "&7[!] &bSpawn setado com sucesso em &e{world} X:{x} Y:{y} Z:{z}&b!"
+    #Quando a saida for setada:
+    Saida_Setada: "&7[!] &bSaida setada com sucesso em &e{world} X:{x} Y:{y} Z:{z}&b!"
+    #Quando o lobby for setado:
+    Lobby_Setado: "&7[!] &bLobby setado com sucesso em &e{world} X:{x} Y:{y} Z:{z}&b!"
+#Motivos do evento ter sido finalizado:
+Motivo:
+  #Caso o evento tenha poucos players:
+  Poucos_Players: "Havia poucos players no evento!"
+  #Quando um staff cancelar o evento:
+  Staff_Cancelou: "Um Staff cancelou o evento!"

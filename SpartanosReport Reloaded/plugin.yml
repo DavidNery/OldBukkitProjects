@@ -1,0 +1,12 @@
+name: SpartanosReport
+version: 0.1
+author: zFork
+main: me.zfork.spartanoscraft.spartanosreport.SpartanosReport
+
+commands:
+    reportar:
+      aliases: [report]
+    reports:
+      aliases: [reportlist, listarreports]
+    creports:
+      aliases: [creportlist, clistarreports]

@@ -1,0 +1,32 @@
+Config:
+  Use_MobSpawner_Changer: true
+  Preco_Quebrar: 50000
+
+Mensagem:
+  Erro:
+    Sem_Permissao: "&c&lMOBSPAWN &7Você não tem permissão para fazer isso :<"
+    Uso_Correto: "&c&lMOBSPAWN &7Utilize &c/mob setar/deletar/listar [nome] [tipo] [tempo] [quantidade]&7!"
+    Uso_Correto_Setar: "&c&lMOBSPAWN &7Utilize &c/mob setar <nome> <tipo> <tempo> <quantidade> <raio>&7!"
+    Uso_Correto_Remover: "&c&lMOBSPAWN &7Utilize &c/mob remover <nome>&7!"
+    Mob_Invalido:
+    - "&c&lMOBSPAWN &7O mob informado é inválido!"
+    - "&c&lMOBSPAWN &eLista de mobs: &f{mobs}&e."
+    Informe_Apenas_Numeros: "&c&lMOBSPAWN &7Informe apenas números."
+    Valor_Maior_Que_Zero: "&c&lMOBSPAWN &7Informe um valor maior que &c&l0 &7:>"
+    Ja_Existe_Mob_Spawner: "&c&lMOBSPAWN &7Parece que já existe um mobspawner com esse nome."
+    Nao_Existe_Mob_Spawner: "&c&lMOBSPAWN &7Nenhum mobspawner encontrado com esse nome."
+    Sem_Mob_Spawners: "&c&lMOBSPAWN &7Ainda não foram setados mobspawners!"
+    Sem_Money_Quebrar: "&c&lMOBSPAWN &7Você precisa de &cR$50,000 &7para quebrar um mobspawner!"
+    Mob_Spawner_Mesmo_Tipo: "&c&lMOBSPAWN &7Mobspawner de mesmo tipo. Mob não alterado!"
+  Sucesso:
+    Mob_Spawner_Setado: "&a&lMOBSPAWN &7Mobspawner setado com sucesso!"
+    Mob_Spawner_Deletado: "&e&lMOBSPAWN &7Mobspawner deletado com sucesso!"
+    Spawners: "&b&lMOBSPAWN &7Spawners setados: &7{spawners}&7!"
+    Quebrou_Mob_Spawner: "&b&lMOBSPAWN &7Você pagou &2R$50,000 &7e quebrou este mobspawner!"
+    Quebrou_Mob_Spawner_NoSilk: "&b&lMOBSPAWN &7Você quebrou este mobspawner, mas por não ter silk touch, ele não foi dropado!"
+    Mob_Spawner_Alterado: "&a&lMOBSPAWN &7Mobspawner alterado para &2{tipo}&7!"
+  Aviso:
+    Quebrar_Novamente:
+    - "&c&lMOBSPAWN &7Você não tem &c&lSilkTouch &7em sua picarata!"
+    - "&c&lMOBSPAWN &fCaso quebre o mobspawner, ele não dropará!"
+    - "&c&lMOBSPAWN &eCaso queira continuar, quebre-o novamente!"

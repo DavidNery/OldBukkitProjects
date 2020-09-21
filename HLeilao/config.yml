@@ -1,0 +1,106 @@
+Config:
+  Valor_Necessario_Iniciar: 50000
+  Valor_Inicial_Maximo: 100000
+  Tempo_Anuncios: 20
+  Anuncios: 3
+  Tempo_Entre_Leiloes: 60
+  Bloco_Completar: 102
+  Retirar_Dinheiro_Apostar: true
+  Devolver_Dinheiro_Ultrapassar: true
+  White_List:
+  - 276
+  - 322
+  - 278
+  - 279
+  - 277
+  - 293
+  - 310
+  - 311
+  - 312
+  - 313
+  - 52
+  - 261
+
+Mensagem:
+  Comandos:
+  - "&6Comandos do HLeilao:"
+  - "&3/leilao iniciar <valor inicial>"
+  - "&3/leilao cancelar"
+  - "&3/leilao info"
+  - "&3/leilao recuperar"
+  - "&c/leilao admin cancelar"
+  - "&c/leilao admin reload"
+  Iniciou_Leilao:
+  - "&5&l=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
+  - "&d"
+  - "&dO player &5{player} &desta leiloando um item!"
+  - "&dO item que ele esta leiloando e: &5{item}"
+  - "&dO menor lance para este leilao e &5R${apostaminima}&d!"
+  - "&dO maior lance dado foi por: &5{liderando}"
+  - "&dO maior lance esta em &5R${maiorlance}&d!"
+  - "&d"
+  - "&5&l=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
+  Nao_Houve_Lances:
+  - "&5&l=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
+  - "&d"
+  - "&dNao houve lances no leilao do player &5{player}&d!"
+  - "&dO item que ele estava leiloando era: &5{item}"
+  - "&dItem devolvido ao player!"
+  - "&d"
+  - "&5&l=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
+  Ganhador:
+  - "&5&l=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
+  - "&d"
+  - "&dO player &5{ganhador} &dganhou o leilao do player &5{player}&d!"
+  - "&dEle ofertou &5R${valor} &dem um(a) &5{item}&d!"
+  - "&d"
+  - "&5&l=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
+  Cancelou:
+  - "&5&l=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
+  - "&d"
+  - "&dO player &5{player} &dcancelou seu leilao!"
+  - "&dEle estava leiloando um(a) &5{item}&d!"
+  - "&d"
+  - "&5&l=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
+  Dono_Saiu:
+  - "&5&l=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
+  - "&d"
+  - "&dO player &5{player} &ddeslogou e o leilao foi cancelado!"
+  - "&dEle estava leiloando um(a) &5{item}&d!"
+  - "&d"
+  - "&5&l=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
+  Admin_Cancelou:
+  - "&5&l=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
+  - "&d"
+  - "&dO admin &5{admin} &dcancelou o leilao do player &5{player}&d!"
+  - "&dEle estava leiloando um(a) &5{item}&d!"
+  - "&dDinheiro dos players devolvido!"
+  - "&d"
+  - "&5&l=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
+  Tem_Item_Para_Recuperar: "&4&lParece que voce tem um item a ser recuperado do ultimo leilao. Digite &c&l/leilao recuperar&4&l!"
+  Erro:
+    Sem_Permissao: "&cVoce nao tem permissao."
+    Informe_Apenas_Numeros: "&cInforme apenas numeros!"
+    Sem_Item_Mao: "&cVoce deve ter um item em sua mae para iniciar um leilao!"
+    Pegue_O_Item: "&cParece que voce ainda precisa recuperar um item do ultimo leilao. Digite &7/leilao recuperar&c!"
+    Valor_Improprio: "&cInforme um valor valido para o valor inicial (R$1 - R$100.000)!"
+    Ja_Havendo: "&cJa esta havendo um leilao no momento, aguarde!"
+    Aguarde_Proximo: "&cAguarde mais &7{restante} &cpara iniciar um novo leilao!"
+    Nada_Para_Recuperar: "&cVoce nao tem nada para recuperar!"
+    Inventario_Cheio: "&cLibere um slot do seu inventario para pode recuperar seu item!"
+    Nao_Esta_Acontecendo_Leilao: "&cNao existe nenhum leilao ocorrendo no momento."
+    Nao_E_Seu: "&cVoce nao pode cancelar um leilao que nao e seu!"
+    Nao_Pode_Apostar_Proprio_Leilao: "&cVoce nao pode apostar em seu proprio leilao!"
+    Aguarde_Apostar: "&cAguarde para apostar novamente."
+    Lance_Maior: "&cO seu lance tem que ser maior do que o que esta liderando ou maior que o valor minimo."
+    Nao_Tem_Suficiente: "&cVoce informou um valor incabivel ao seu saldo."
+    Nao_Pode_Leiloar_Item: "&cVoce nao pode leiloar este item!"
+    Sem_Valor_Necessario: "&cVoce precisa de mais &7R${valor} &cpara iniciar esse leilao!"
+    Uso_Correto:
+      Iniciar: "&cUtilize &7/leilao iniciar <valor inicial>&c!"
+      Lance: "&cUtilize &7/leilao lance <valor>&c!"
+      Admin: "&cUtilize &7/leilao admin <cancelar/reload>&c!"
+  Sucesso:
+    Recuperou_Item: "&bVoce recuperou seu item com sucesso!"
+    Player_Apostou: "&dPlayer &5{player} &ddeu um lance de &5R${valor} &dno leilao."
+    Recarregado: "&bPlugin recarregado!"

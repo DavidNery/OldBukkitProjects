@@ -1,0 +1,7 @@
+name: SeekingPressurePlate
+version: 0.1b
+author: Dery
+main: com.seekinggames.seekingpp.SeekingPP
+
+commands:
+    setplate:

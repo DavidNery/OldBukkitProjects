@@ -1,0 +1,12 @@
+name: Bosses
+version: 0.1
+author: zFork
+main: com.craftzone.bosses.Bosses
+
+commands:
+    setwither:
+    setdragon:
+    lastkwither:
+    lastkdragon:
+    spawndragon:
+    spawnwither:

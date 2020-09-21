@@ -1,0 +1,10 @@
+Uso_Correto: "&cUtilize &7/bossbar <player> <tempo> <mensagem>&c!"
+Player_Offline: "&cEste player esta offline!"
+Nao_E_Numero: "&cPor favor, utilize apenas numeros no tempo!"
+Setou_BossBar: "&3Voce setou a bossbar para '@msg&3' por &f@tempo &3segundos!"
+Removeu_BossBar: "&6Voce removeu a bossbar de todos os players do servidor!"
+Tempo_Mudar_Mensagem: 30
+Mensagens:
+- "&6&lBem vindo ao servidor &f&l@player&6&l!"
+- "&4&lEstamos com uma promocao vip! Digite &5&l/promocao&4&l!"
+- "&6&lOla &f&l@player&6&l!"

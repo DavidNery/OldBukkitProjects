@@ -1,0 +1,79 @@
+Config:
+  Permissao:
+    Ver: "spartanosinvrestorer.ver"
+    Deletar: "spartanosinvrestorer.deletar"
+  MySQL:
+    User: root
+    Senha: pass
+    Database: spartanosinvrestorer
+    Host: localhost
+  Preco_Default: 0.5
+  Custom_Prices:
+    276:
+      Item_Raro: true
+      Custom_Price_List:
+      - "enchant:afiada 5:5"
+      - "enchant:afiada 4:4"
+      - "enchant:afiada 3:3"
+      - "enchant:afiada 2:2"
+      - "nome:&c&lEspada colossal:10"
+    310:
+      Item_Raro: true
+      Custom_Price_List:
+      - "enchant:protecao 4:4"
+      - "enchant:protecao 3:3"
+      - "enchant:protecao 2:2"
+      - "enchant:protecao 1:1"
+    311:
+      Item_Raro: true
+      Custom_Price_List:
+      - "enchant:protecao 4:4"
+      - "enchant:protecao 3:3"
+      - "enchant:protecao 2:2"
+      - "enchant:protecao 1:1"
+    312:
+      Item_Raro: true
+      Custom_Price_List:
+      - "enchant:protecao 4:4"
+      - "enchant:protecao 3:3"
+      - "enchant:protecao 2:2"
+      - "enchant:protecao 1:1"
+    313:
+      Item_Raro: true
+      Custom_Price_List:
+      - "enchant:protecao 4:4"
+      - "enchant:protecao 3:3"
+      - "enchant:protecao 2:2"
+      - "enchant:protecao 1:1"
+  Tempo_Expirar_Player_Inventory: 24
+  Tempo_Expirar_Player_Inventory_Geral: 48
+  Inventories:
+    Item_Voltar: "cabeca:MHF_ArrowLeft nome:&eAnterior"
+    Item_Proximo: "cabeca:MHF_ArrowRight nome:&ePróximo"
+    Item_Confirm: "item:35:13 nome:&aComprar_agora!"
+    Item_Close: "item:35:14 nome:&aCancelar_e_fechar!"
+    Item_Info: "item:35:9 nome:&cPreco:_&c&l{preco}"
+    
+Mensagem:
+  Erro:
+    Sem_Permissao: "&c&lSpartanosInvsRestorer &7Você não pode utilizar este comando!"
+    Sem_Inventarios: "&c&lSpartanosInvsRestorer &7Você não tem inventários para serem visualizados!"
+    Sem_Inventarios_Total: "&c&lSpartanosInvsRestorer &7Não existem inventários para serem visualizados!"
+    Sem_Money: "&c&lSpartanosInvsRestorer &7Você não tem pontos suficientes para comprar este inventário!"
+    Inventario_Vazio: "&c&lSpartanosInvsRestorer &7Você tem de estar com o inventário vazio para comprar um inventário!"
+    Inventario_Comprado: "&c&lSpartanosInvsRestorer &7Este inventário já foi comprado :<"
+    Player_Nao_Encontrado: "&c&lSpartanosInvsRestorer &7Este player não tem inventários!"
+    Inventario_Nao_Encontrado: "&c&lSpartanosInvsRestorer &7Nenhum inventário com este id encontrado!"
+    Ainda_Nao_Pode_Comprar: "&c&lSpartanosInvsRestorer &7Este inventário ainda não pode ser comprado!"
+    Cmd:
+      Ver: "&c&lSpartanosInvsRestorer &7Utilize &c&l/invsrestorer ver <player|id>&7!"
+      Deletar: "&c&lSpartanosInvsRestorer &7Utilize &c&l/invsrestorer deletar <player|id>&7!"
+  Sucesso:
+    Comprou: "&b&lSpartanosInvsRestorer &7Você comprou o inventário &b&l#{id} &7do player &b&l{player} &7por &b&lR${preco}&7!"
+    Inventario_Apagado: "&b&lSpartanosInvsRestorer &7Inventário &b&l#{id} &7apagado!"
+    Inventarios_Apagados: "&b&lSpartanosInvsRestorer &7Todos os inventarios do player &b&l{player} &7apagados!"
+    Pagina_Nao_Mais_Existe: "&e&lSpartanosInvsRestorer &7A página que você estava visualizando não existe mais!"
+    Pode_Comprar_Inv:
+    - "&6&lSpartanosInvsRestorer &7Você morreu, mas felizmente você pode recuperar seu inventário!"
+    - "&e&lSpartanosInvsRestorer &fPara comprar utilize &e&l/invsrestorer&f!"
+    Ficou_Disponivel: "&a&lSpartanosInvsRestorer &7O inventário do player &a&l{player} &7ficou disponivel!"

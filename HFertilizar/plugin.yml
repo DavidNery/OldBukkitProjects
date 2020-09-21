@@ -1,0 +1,7 @@
+name: HFertilizar
+version: 0.1b
+author: Dery
+main: me.dery.hfertilizar.HFertilizar
+
+commands:
+    fertilizar:

@@ -1,0 +1,75 @@
+Config:
+  Tempo: 10
+  Tempo_Anuncios: 20
+  Chamadas: 2
+  Itens_Bau_Quantidade: 5
+  Min_Players: 1
+  Spawn: "world 0 0 0 0 0"
+  Saida: "world 0 0 0 0 0"
+  Lobby: "world 0 0 0 0 0"
+  Itens:
+  - "322:1;64; ; ; ;50"
+  - "276;1;afiada:10-aspecto_flamejante:10-inquebravel:10;&6&lEspada de Zeus!; "
+  - "310;1;protecao:10-inquebravel:10-espinhos:5; ; "
+  - "311;1;protecao:10-inquebravel:10-espinhos:5; ; "
+  - "312;1;protecao:10-inquebravel:10-espinhos:5; ; "
+  - "313;1;protecao:10-inquebravel:10-espinhos:5; ; "
+
+Mensagem:
+  Sem_Permissao: "&cUe, parece que voce nao tem permissao :<"
+  Encerrando: "&dEvento encerrando em &f@tempo &dminutos!"
+  Info: "&3O evento esta &f@status&3, atualmente temos &f@players &3players no evento!"
+  Comandos:
+  - "&6Comandos:"
+  - "&3/jungle participar &f* &3Participar do evento"
+  - "&3/jungle info &f* &3Informacoes do evento"
+  - "&3/jungle sair &f* &3Saia do evento"
+  - "&3/jungle setbau &f* &3Sete um bau do evento!"
+  - "&3/jungle setsaida &f* &3Sete a saida do evento!"
+  - "&3/jungle setlobby &f* &3Sete o lobby do evento!"
+  - "&3/jungle setentrada &f* &3Sete a entrada do evento!"
+  - "&3/jungle iniciar &f* &3Inicie o evento!"
+  - "&3/jungle fechar &f* &3Feche o evento!"
+  Iniciando:
+  - ""
+  - ""
+  - "&f[JUNGLE] &dEvento comencando!"
+  - "&f[JUNGLE] &dPara entrar utilize /jungle participar!"
+  - "&f[JUNGLE] &dNo momento existem @players players no evento!"
+  - "&f[JUNGLE] &dAnuncios encerrando em @chamadas chamadas ou @tempo segundos!"
+  - ""
+  - ""
+  Iniciou:
+  - ""
+  - ""
+  - "&f[JUNGLE] &dEvento iniciado!"
+  - "&f[JUNGLE] &dForam spawnados @baus baus!"
+  - ""
+  - ""
+  Encerrado:
+  - ""
+  - ""
+  - "&f[JUNGLE] &dEvento encerrado!"
+  - "&f[JUNGLE] &d@players players teleportados ate a saida!"
+  - "&f[JUNGLE] &dMotivo: @motivo"
+  - ""
+  - ""
+  Erro:
+    Esta_Aberto: "&cO evento ja esta aberto!"
+    Nao_Esta_Aberto: "&cO evento nao esta aberto!"
+    Ja_Esta: "&cVoce ja esta no evento!"
+    Nao_Esta: "&cVoce nao esta no evento!"
+    Esta_Morto: "&cReviva primeiro, depois tente utilizar este comando!"
+  Sucesso:
+    Cancelou: "&bVoce cancelou o evento!"
+    Entrada_Setada: "&aEntrada setada com sucesso!"
+    Saida_Setada: "&aSaida setada com sucesso!"
+    Lobby_Setado: "&aLobby setado com sucesso!"
+    Entrou: "&aVoce entrou no evento, aguarde ele ser iniciado!"
+    Saiu: "&aVoce saiu do evento!"
+    Bau_Adicionado: "&aVoce adicionou um bau ao evento!"
+    
+Motivo:
+  Normal: "O tempo do evento acabou!"
+  Staff_Cancelou: "Um staff cancelou o evento!"
+  Poucos_Players: "Nao haviam players suficientes!"

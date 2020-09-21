@@ -1,0 +1,129 @@
+Config:
+  MySQL:
+    User: "root"
+    Senha: "senha"
+    Database: "minecraft"
+    Tabela: "bitcoins"
+    Host: "localhost"
+    CheckTime: 60
+  MainInv:
+    Nome: "&c&lBIT&6&lSHOP"
+    Tamanho: 18
+    Slots:
+      1-18:
+        Item: "item:160:7"
+      3:
+        Item: "item:264 nome:&bComprar_VIPS"
+        Acoes:
+        - "abrir inv vips"
+      5:
+        Item: "item:266 nome:&bComprar_Coins"
+        Acoes:
+        - "abrir inv coins"
+      7:
+        Item: "item:388 nome:&bComprar_Money"
+        Acoes:
+        - "abrir inv money"
+      14:
+        Item: "item:166 nome:&c&lFECHAR_INVENTARIO"
+        Acoes:
+        - "fechar inventario"
+  ConfirmInv:
+    Nome: "&a&lCONFIRMAR"
+    Tamanho: 9
+    Slots:
+      1-9:
+        Item: "item:160:7"
+      4:
+        Item: "item:266 nome:&c&lFechar"
+        Acoes:
+        - "abrir inv mainInventory"
+      6:
+        Item: "item:35:13 nome:&aComprar"
+        Acoes:
+        - "confirmar"
+  OtherInvs:
+    vips:
+      Nome: "&fComprar &a&lVIPS"
+      Tamanho: 18
+      Slots:
+        1-18:
+          Item: "item:160:7"
+        3:
+          Item: "item:283 nome:&7Comprar_Vip_&e&lGOLD lore:&7@&7_|-_Este_item_custa_&c&l10_&7pontos!@&7_|-_Você_tem_&c&l{pontos}_pontos&7!"
+          Acoes:
+          - "confirmar->retirar pontos 10&&console executar cmd pex user {player} group add gold&&enviar mensagem &c&lBIT&6&lSHOP &7Você comprou um vip &e&lGOLD &7por &f10 &7pontos!&&fechar inventario"
+        5:
+          Item: "item:267 nome:&7Comprar_Vip_&8&lSILVER lore:&7@&7_|-_Este_item_custa_&c&l20_&7pontos!@&7_|-_Você_tem_&c&l{pontos}_pontos&7!"
+          Acoes:
+          - "confirmar->retirar pontos 20&&console executar cmd pex user {player} group add silver&&enviar mensagem &c&lBIT&6&lSHOP &7Você comprou um vip &7&lSILVER &7por &f20 &7pontos!&&fechar inventario"
+        7:
+          Item: "item:276 nome:&7Comprar_Vip_&e&lDIAMOND lore:&7@&7_|-_Este_item_custa_&c&l30_&7pontos!@&7_|-_Você_tem_&c&l{pontos}_pontos&7!"
+          Acoes:
+          - "confirmar->retirar pontos 30&&console executar cmd pex user {player} group add diamond&&enviar mensagem &c&lBIT&6&lSHOP &7Você comprou um vip &b&lDIAMOND &7por &f30 &7pontos!&&fechar inventario"
+        14:
+          Item: "item:166 nome:&c&lVOLTAR"
+          Acoes:
+          - "abrir inv mainInventory"
+    coins:
+      Nome: "&fComprar &a&lCOINS"
+      Tamanho: 18
+      Slots:
+        1-18:
+          Item: "item:160:7"
+        3:
+          Item: "item:266 nome:&7Comprar_100_Coins lore:&7@&7_|-_Este_item_custa_&c&l10_&7pontos!@&7_|-_Você_tem_&c&l{pontos}_pontos&7!"
+          Acoes:
+          - "confirmar->retirar pontos 10&&console executar cmd coins give {player} 100&&enviar mensagem &c&lBIT&6&lSHOP &7Você comprou &c&l100 coins &7por &f10 pontos&7!&&fechar inventario"
+        5:
+          Item: "item:265 nome:&7Comprar_200_Coins lore:&7@&7_|-_Este_item_custa_&c&l20_&7pontos!@&7_|-_Você_tem_&c&l{pontos}_pontos&7!"
+          Acoes:
+          - "confirmar->retirar pontos 20&&console executar cmd coins give {player} 200&&enviar mensagem &c&lBIT&6&lSHOP &7Você comprou &c&l200 coins &7por &f20 pontos&7!&&fechar inventario"
+        7:
+          Item: "item:264 nome:&7Comprar_300_Coins lore:&7@&7_|-_Este_item_custa_&c&l30_&7pontos!@&7_|-_Você_tem_&c&l{pontos}_pontos&7!"
+          Acoes:
+          - "confirmar->retirar pontos 30&&console executar cmd coins give {player} 300&&enviar mensagem &c&lBIT&6&lSHOP &7Você comprou &c&l300 coins &7por &f30 pontos&7!&&fechar inventario"
+        14:
+          Item: "item:166 nome:&c&lVOLTAR"
+          Acoes:
+          - "abrir inv mainInventory"
+    money:
+      Nome: "&fComprar &a&lMONEY"
+      Tamanho: 18
+      Slots:
+        1-18:
+          Item: "item:160:7"
+        3:
+          Item: "item:266 nome:&7Comprar_5000_de_Money lore:&7@&7_|-_Este_item_custa_&c&l10_&7pontos!@&7_|-_Você_tem_&c&l{pontos}_pontos&7!"
+          Acoes:
+          - "confirmar->retirar pontos 10&&console executar cmd money give {player} 5000&&enviar mensagem &c&lBIT&6&lSHOP &7Você comprou &c&l5000 de money &7por &f10 pontos&7!&&fechar inventario"
+        5:
+          Item: "item:265 nome:&7Comprar_20000_de_Money lore:&7@&7_|-_Este_item_custa_&c&l20_&7pontos!@&7_|-_Você_tem_&c&l{pontos}_pontos&7!"
+          Acoes:
+          - "confirmar->retirar pontos 20&&console executar cmd money give {player} 20000&&enviar mensagem &c&lBIT&6&lSHOP &7Você comprou &c&l20000 de money &7por &f20 pontos&7!&&fechar inventario"
+        7:
+          Item: "item:264 nome:&7Comprar_50000_de_Money lore:&7@&7_|-_Este_item_custa_&c&l30_&7pontos!@&7_|-_Você_tem_&c&l{pontos}_pontos&7!"
+          Acoes:
+          - "confirmar->retirar pontos 30&&console executar cmd money give {player} 50000&&enviar mensagem &c&lBIT&6&lSHOP &7Você comprou &c&l50000 de money &7por &f30 pontos&7!&&fechar inventario"
+        14:
+          Item: "item:166 nome:&c&lVOLTAR"
+          Acoes:
+          - "abrir inv mainInventory"
+  Avisar_Ativacao_Pagamento_A_Player: true
+  Ativar_Som_Ativacao_Pagamento: true
+  SOUND: "ORB_PICKUP"
+  Avisar_Ativacao_Pagamento_A_Todos: true
+
+Mensagem:
+  Sem_Pontos_Suficientes: "&c&lBIT&6&lSHOP &cVocê não tem pontos suficientes!"
+  Pagamento_Aprovado_Player:
+  - ""
+  - ""
+  - "&c&lBIT&6&lSHOP &fSua compra de &7{qnt} pontos &ffoi aprovada!"
+  - "&c&lBIT&6&lSHOP &fObrigado por ajudar a manter o servidor online!"
+  - ""
+  - ""
+  Pagamento_Aprovado_Todos:
+  - ""
+  - "&c&lBIT&6&lSHOP &fCompra de &7{qnt} pontos &fdo player &7{player} &ffoi aprovada!"
+  - ""

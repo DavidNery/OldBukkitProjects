@@ -1,0 +1,7 @@
+name: DPulaPula
+version: 1.0
+main: me.dery.dpulapula.DPulaPula
+author: [Dery]
+
+commands:
+    pulapula:

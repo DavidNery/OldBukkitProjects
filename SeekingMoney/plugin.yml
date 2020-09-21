@@ -1,0 +1,7 @@
+name: SeekingMoney
+version: 0.1
+main: com.seekinggames.seekingmoney.SeekingMoney
+author: Dery
+
+commands:
+    money:

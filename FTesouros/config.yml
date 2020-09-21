@@ -1,0 +1,452 @@
+Config:
+  Key: "SUAKEYAQUI"
+  Mundo_Tesouros: "tesouros"
+  Args:
+    Tp: "tp"
+    Give: "give"
+    Cacar: "cacar"
+    Rank: "rank"
+  Rank:
+    Ativar: true
+    TOP_Achou_Limite: 10
+    Formato_Rank_Achou: "&3#{colocacao} &f- &3{player} &f: &3{achou}"
+    TOP: "&3&l=-= &f&lQUEM MAIS DESENTERROU TESOUROS &3&l=-="
+    END: "&3&l=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
+  SQL:
+    Tipo: 2
+    Usuario: root
+    Senha: root
+    DataBase: minecraft
+    Host: 127.0.0.1
+  Livro_Title: "&6&lLivro do Tesouro"
+  Livro_Author: "{player}"
+  X_Min: 0
+  X_Max: 1000
+  Z_Min: 0
+  Z_Max: 1000
+  Livro:
+  - "&2Livro de tesouro!\n&3X: &b{x}\n&3Z: &b{z}"
+  - "&6&lFTesouros"
+  Anunciar_Achou_Livro: true
+  Bloco_Cercar: 85
+  Tempo_Remover_Bau: 60
+  Level:
+    1:
+      - "item:267 qnt:1"
+      - "item:302 qnt:1"
+      - "item:303 qnt:1"
+      - "item:304 qnt:1"
+      - "item:305 qnt:1"
+      - "item:322 qnt:16"
+    2:
+      - "item:267 qnt:1"
+      - "item:302 qnt:1"
+      - "item:303 qnt:1"
+      - "item:304 qnt:1"
+      - "item:305 qnt:1"
+      - "item:322:1 qnt:1"
+    3:
+      - "item:267 qnt:1"
+      - "item:302 qnt:1"
+      - "item:303 qnt:1"
+      - "item:304 qnt:1"
+      - "item:305 qnt:1"
+      - "item:322:1 qnt:1"
+    4:
+      - "item:267 qnt:1"
+      - "item:302 qnt:1"
+      - "item:303 qnt:1"
+      - "item:304 qnt:1"
+      - "item:305 qnt:1"
+      - "item:322:1 qnt:1"
+    5:
+      - "item:267 qnt:1"
+      - "item:302 qnt:1"
+      - "item:303 qnt:1"
+      - "item:304 qnt:1"
+      - "item:305 qnt:1"
+      - "item:322:1 qnt:1"
+    6:
+      - "item:267 qnt:1"
+      - "item:302 qnt:1"
+      - "item:303 qnt:1"
+      - "item:304 qnt:1"
+      - "item:305 qnt:1"
+      - "item:322:1 qnt:1"
+    7:
+      - "item:267 qnt:1"
+      - "item:302 qnt:1"
+      - "item:303 qnt:1"
+      - "item:304 qnt:1"
+      - "item:305 qnt:1"
+      - "item:322:1 qnt:1"
+    8:
+      - "item:267 qnt:1"
+      - "item:302 qnt:1"
+      - "item:303 qnt:1"
+      - "item:304 qnt:1"
+      - "item:305 qnt:1"
+      - "item:322:1 qnt:1"
+    9:
+      - "item:267 qnt:1"
+      - "item:302 qnt:1"
+      - "item:303 qnt:1"
+      - "item:304 qnt:1"
+      - "item:305 qnt:1"
+      - "item:322:1 qnt:1"
+    10:
+      - "item:276 qnt:1 enchants:afiada:5,inquebravel:3,aspecto_flamejante:2"
+      - "item:310 qnt:1 enchants:protecao:4,inquebravel:3"
+      - "item:311 qnt:1 enchants:protecao:4,inquebravel:3"
+      - "item:312 qnt:1 enchants:protecao:4,inquebravel:3"
+      - "item:313 qnt:1 enchants:protecao:4,inquebravel:3"
+      - "item:322:1 qnt:64 chance:25"
+      - "cabeca:{player},DdeDelicia chance:1"
+  Mobs:
+  - "1>ZOMBIE,SKELETON>10>&6&l{mob} LEVEL 1>100"
+  - "2>ZOMBIE,SKELETON>11>&6&l{mob} LEVEL 1>110"
+  - "3>ZOMBIE,SKELETON>12>&6&l{mob} LEVEL 1>120"
+  - "4>ZOMBIE,SKELETON>13>&6&l{mob} LEVEL 1>130"
+  - "5>ZOMBIE,SKELETON>13>&6&l{mob} LEVEL 1>140"
+  - "6>ZOMBIE,SKELETON>15>&6&l{mob} LEVEL 1>150"
+  - "7>ZOMBIE,SKELETON>20>&6&l{mob} LEVEL 1>160"
+  - "8>ZOMBIE,SKELETON>25>&6&l{mob} LEVEL 1>170"
+  - "9>ZOMBIE,SKELETON>25>&6&l{mob} LEVEL 1>180"
+  - "10>ZOMBIE,SKELETON>30>&6&l{mob} LEVEL 1>10"
+  - "10>GIANT>1>&6&lMOB SUPREMO>50"
+
+Mensagem:
+  Comandos:
+  - "&3Comandos do plugin:"
+  - "&3/tesouro tp <x> <z> &f* &bTeleporte para uma coord do mundo de tesouros."
+  - "&3/tesouro give <level> [player] &f* &bSe de um livro ou presenteie um player!"
+  - "&3/tesouro cacar &f* &bVa ao mundo de tesouros!"
+  Erro:
+    Uso_Correto:
+      Tp: "&6&lTESOUROS &cUtilize &7/tesouro tp <x> <z>&c!"
+      Give: "&6&lTESOUROS &cUtilize &7/tesouro give <level> [player]&c!"
+    Sem_Permissao: "&6&lTESOUROS &cVoce nao tem permissao para utilizar este comando."
+    Informe_Apenas_Numeros: "&6&lTESOUROS &cInforme apenas numeros!"
+    Player_Offline: "&6&lTESOUROS &cEste player nao esta online!"
+    Inventario_Cheio: "&6&lTESOUROS &cSeu inventario esta cheio!"
+    Inventario_Player_Cheio: "&6&lFTesouros &cO inventario do player informado esta lotado!"
+    Level_Alto: "&6&lFTesouros &cEste level esta fora dos padroes configurados!"
+    Existe_Mobs_Perto: "&6&lFTesouros &cMate todos os mobs antes de pegar os itens!"
+    Bau_Nao_E_Seu: "&6&lFTesouros &cEste bau nao e seu!"
+    Livro_Tesouro_Mao: "&6&lFTesouros &cVoce precisa ter um livro de tesouro na mao para se teleportar ao mundo de tesouros."
+    Rank_Desativado: "&6&lFTesouros &cDesculpe, mas o rank esta desativado!"
+    Aguarde_Rank: "&6&lFTesouros &cAguarde mais &7{tempo} &cpara ver o rank novamente!"
+  Sucesso:
+    Teleportado: "&6&lTESOUROS &bVoce foi teleportado ao mundo de tesouros!"
+    Teleportado_Staff: "&6&lTESOUROS &bUm staff lhe teleportou ate o mundo de tesouros!"
+    Teleportou: "&6&lTESOUROS &bVoce teleportou o player &f{player} &bpara o mundo de tesouros!"
+    Teleportado_Mundo_Tesouros: "&6&lFTesouros &bVoce foi teleportado ate o mundo de tesouros!"
+    Se_Deu_Livro: "&6&lFTesouros &aVoce se deu um livro de level &f{level}&a!"
+    Deu_Livro: "&6&lFTesouros &aVoce deu um livro de level &f{level} &aao player &f{player}&a!"
+    Ganhou_Livro: "&6&lFTesouros &bVoce ganhou um livro de tesouro de level &f{level} &bde um staff!"
+    Achou_Livro: "&6&lFTesouros &bVoce achou um livro do tesouro de level &f{level}&b!"
+    Player_Achou_Livro: "&6&lFTesouros &aPlayer &f{player} &2achou um livro do tesouro de level &f{level}&a!"
+    Livro_Dropado: "&6&lFTesouros &bSeu inventario e enderchest estavam cheios, livro dropado no chao!"
+    Livro_Adicionado_Ao_EnderChest: "&6&lFTesouros &bSeu livro foi adicionado ao seu enderchest!"
+    
+Habilidades:
+  ACROBATICS:
+    Ativar: true
+    Level_Min: 100
+    Chance: 5
+    Levels:
+      1:
+        Skill_Level: '100-200'
+      2:
+        Skill_Level: '201-300'
+      3:
+        Skill_Level: '301-400'
+      4:
+        Skill_Level: '401-500'
+      5: 
+        Skill_Level: '501-600'
+      6: 
+        Skill_Level: '601-700'
+      7: 
+        Skill_Level: '701-800'
+      8: 
+        Skill_Level: '801-900'
+      9: 
+        Skill_Level: '901-1000'
+      10: 
+        Skill_Level: '1001'
+  ARCHERY:
+    Ativar: true
+    Level_Min: 100
+    Chance: 20
+    Levels:
+      1:
+        Skill_Level: '100-200'
+      2:
+        Skill_Level: '201-300'
+      3:
+        Skill_Level: '301-400'
+      4:
+        Skill_Level: '401-500'
+      5: 
+        Skill_Level: '501-600'
+      6: 
+        Skill_Level: '601-700'
+      7: 
+        Skill_Level: '701-800'
+      8: 
+        Skill_Level: '801-900'
+      9: 
+        Skill_Level: '901-1000'
+      10: 
+        Skill_Level: '1001'
+  AXES:
+    Ativar: true
+    Level_Min: 100
+    Chance: 20
+    Levels:
+      1:
+        Skill_Level: '100-200'
+      2:
+        Skill_Level: '201-300'
+      3:
+        Skill_Level: '301-400'
+      4:
+        Skill_Level: '401-500'
+      5: 
+        Skill_Level: '501-600'
+      6: 
+        Skill_Level: '601-700'
+      7: 
+        Skill_Level: '701-800'
+      8: 
+        Skill_Level: '801-900'
+      9: 
+        Skill_Level: '901-1000'
+      10: 
+        Skill_Level: '1001'
+  EXCAVATION:
+    Ativar: true
+    Level_Min: 100
+    Chance: 15
+    Levels:
+      1:
+        Skill_Level: '100-200'
+      2:
+        Skill_Level: '201-300'
+      3:
+        Skill_Level: '301-400'
+      4:
+        Skill_Level: '401-500'
+      5: 
+        Skill_Level: '501-600'
+      6: 
+        Skill_Level: '601-700'
+      7: 
+        Skill_Level: '701-800'
+      8: 
+        Skill_Level: '801-900'
+      9: 
+        Skill_Level: '901-1000'
+      10: 
+        Skill_Level: '1001'
+  FISHING:
+    Ativar: true
+    Level_Min: 100
+    Chance: 5
+    Levels:
+      1:
+        Skill_Level: '100-200'
+      2:
+        Skill_Level: '201-300'
+      3:
+        Skill_Level: '301-400'
+      4:
+        Skill_Level: '401-500'
+      5: 
+        Skill_Level: '501-600'
+      6: 
+        Skill_Level: '601-700'
+      7: 
+        Skill_Level: '701-800'
+      8: 
+        Skill_Level: '801-900'
+      9: 
+        Skill_Level: '901-1000'
+      10: 
+        Skill_Level: '1001'
+  HERBALISM:
+    Ativar: true
+    Level_Min: 100
+    Chance: 10
+    Levels:
+      1:
+        Skill_Level: '100-200'
+      2:
+        Skill_Level: '201-300'
+      3:
+        Skill_Level: '301-400'
+      4:
+        Skill_Level: '401-500'
+      5: 
+        Skill_Level: '501-600'
+      6: 
+        Skill_Level: '601-700'
+      7: 
+        Skill_Level: '701-800'
+      8: 
+        Skill_Level: '801-900'
+      9: 
+        Skill_Level: '901-1000'
+      10: 
+        Skill_Level: '1001'
+  MINING:
+    Ativar: true
+    Level_Min: 100
+    Chance: 20
+    Levels:
+      1:
+        Skill_Level: '100-200'
+      2:
+        Skill_Level: '201-300'
+      3:
+        Skill_Level: '301-400'
+      4:
+        Skill_Level: '401-500'
+      5: 
+        Skill_Level: '501-600'
+      6: 
+        Skill_Level: '601-700'
+      7: 
+        Skill_Level: '701-800'
+      8: 
+        Skill_Level: '801-900'
+      9: 
+        Skill_Level: '901-1000'
+      10: 
+        Skill_Level: '1001'
+  REPAIR:
+    Ativar: true
+    Level_Min: 100
+    Chance: 5
+    Levels:
+      1:
+        Skill_Level: '100-200'
+      2:
+        Skill_Level: '201-300'
+      3:
+        Skill_Level: '301-400'
+      4:
+        Skill_Level: '401-500'
+      5: 
+        Skill_Level: '501-600'
+      6: 
+        Skill_Level: '601-700'
+      7: 
+        Skill_Level: '701-800'
+      8: 
+        Skill_Level: '801-900'
+      9: 
+        Skill_Level: '901-1000'
+      10: 
+        Skill_Level: '1001'
+  SWORDS:
+    Ativar: true
+    Level_Min: 100
+    Chance: 20
+    Levels:
+      1:
+        Skill_Level: '100-200'
+      2:
+        Skill_Level: '201-300'
+      3:
+        Skill_Level: '301-400'
+      4:
+        Skill_Level: '401-500'
+      5: 
+        Skill_Level: '501-600'
+      6: 
+        Skill_Level: '601-700'
+      7: 
+        Skill_Level: '701-800'
+      8: 
+        Skill_Level: '801-900'
+      9: 
+        Skill_Level: '901-1000'
+      10: 
+        Skill_Level: '1001'
+  TAMING:
+    Ativar: true
+    Level_Min: 100
+    Chance: 10
+    Levels:
+      1:
+        Skill_Level: '100-200'
+      2:
+        Skill_Level: '201-300'
+      3:
+        Skill_Level: '301-400'
+      4:
+        Skill_Level: '401-500'
+      5: 
+        Skill_Level: '501-600'
+      6: 
+        Skill_Level: '601-700'
+      7: 
+        Skill_Level: '701-800'
+      8: 
+        Skill_Level: '801-900'
+      9: 
+        Skill_Level: '901-1000'
+      10: 
+        Skill_Level: '1001'
+  UNARMED:
+    Ativar: true
+    Level_Min: 100
+    Chance: 50
+    Levels:
+      1:
+        Skill_Level: '100-200'
+      2:
+        Skill_Level: '201-300'
+      3:
+        Skill_Level: '301-400'
+      4:
+        Skill_Level: '401-500'
+      5: 
+        Skill_Level: '501-600'
+      6: 
+        Skill_Level: '601-700'
+      7: 
+        Skill_Level: '701-800'
+      8: 
+        Skill_Level: '801-900'
+      9: 
+        Skill_Level: '901-1000'
+      10: 
+        Skill_Level: '1001'
+  WOODCUTTING:
+    Ativar: true
+    Level_Min: 100
+    Chance: 20
+    Levels:
+      1:
+        Skill_Level: '100-200'
+      2:
+        Skill_Level: '201-300'
+      3:
+        Skill_Level: '301-400'
+      4:
+        Skill_Level: '401-500'
+      5: 
+        Skill_Level: '501-600'
+      6: 
+        Skill_Level: '601-700'
+      7: 
+        Skill_Level: '701-800'
+      8: 
+        Skill_Level: '801-900'
+      9: 
+        Skill_Level: '901-1000'
+      10: 
+        Skill_Level: '1001'

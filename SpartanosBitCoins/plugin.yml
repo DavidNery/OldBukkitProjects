@@ -1,0 +1,8 @@
+name: SpartanosBitCoins
+version: 0.1
+author: zFork
+main: me.zfork.spartanoscraft.spartanosbitcoins.SpartanosBitCoins
+
+commands:
+    comprar:
+    sbcreload:

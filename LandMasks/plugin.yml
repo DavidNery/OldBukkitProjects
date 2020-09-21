@@ -1,0 +1,7 @@
+name: LandMasks
+version: 0.1
+author: zFork
+main: me.zfork.landmasks.LandMasks
+
+commands:
+    mascaras:

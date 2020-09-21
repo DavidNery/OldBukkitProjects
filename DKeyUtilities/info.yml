@@ -1,0 +1,47 @@
+####################ENCHANTS####################
+#PROTECTION_ENVIRONMENTAL                      #
+#PROTECTION_FIRE                               #
+#PROTECTION_FALL                               #
+#PROTECTION_EXPLOSIONS                         #
+#PROTECTION_PROJECTILE                         #
+#OXYGEN                                        #
+#WATER_WORKER                                  #
+#THORNS                                        #
+#DAMAGE_ALL                                    #
+#DAMAGE_UNDEAD                                 #
+#DAMAGE_ARTHROPODS                             #
+#KNOCKBACK                                     #
+#FIRE_ASPECT                                   #
+#LOOT_BONUS_MOBS                               #
+#DIG_SPEED                                     #
+#SILK_TOUCH                                    #
+#DURABILITY                                    #
+#LOOT_BONUS_BLOCKS                             #
+#ARROW_DAMAGE                                  #
+#ARROW_KNOCKBACK                               #
+#ARROW_FIRE                                    #
+#ARROW_INFINITE                                #
+####################ENCHANTS####################
+
+####################POTIONS####################
+#SPEED                                        #
+#SLOW                                         #
+#FAST_DIGGING                                 #
+#SLOW_DIGGING                                 #
+#INCREASE_DAMAGE                              #
+#HEAL                                         #
+#HARM                                         #
+#JUMP                                         #
+#CONFUSION                                    #
+#REGENERATION                                 #
+#DAMAGE_RESISTANCE                            #
+#FIRE_RESISTANCE                              #
+#WATER_BREATHING                              #
+#INVISIBILITY                                 #
+#BLINDNESS                                    #
+#NIGHT_VISION                                 #
+#HUNGER                                       #
+#WEAKNESS                                     #
+#POISON                                       #
+#WITHER                                       #
+####################POTIONS####################

@@ -1,0 +1,90 @@
+Config:
+  Buff:
+    Money: 100000
+    Tempo: 120
+    Efeitos:
+    - velocidade 60 1
+    - forca 60 1
+    - regeneracao 60 3
+    - resistencia 60 3
+    - resistencia-fogo 60 3
+  Megafone:
+    Tempo: 120
+    Formato:
+    - ""
+    - ""
+    - "&d&l[ANUNCIO] &f&l: &6@player&f&l: &r@msg"
+    - ""
+    - ""
+  Fumar:
+    Money: 5000
+    Tempo: 120
+  Nome_Cabeca: "&eCabeca de @player!"
+  Enchant_Maximo: 10
+  Chance_Dropar_Cabeca: 1
+  Preco_Falar: 30000
+  Grupos:
+    VIP: "&f@player &6e &b&l[VIP] &6e acaba de entrar no servidor!"
+    VIP+: "&f@player &6e &e&l[VIP+] &6e acaba de entrar no servidor!"
+
+Mensagem:
+  Sem_Permissao: "&cVoce nao tem permissao para utilizar o comando &7@cmd&c!"
+  Check:
+  - "&6&lCHECK:"
+  - "&cPlayer: &7@player"
+  - "&cVida: &7@vida"
+  - "&cFome: &7@fome"
+  - "&cCoordenadas: &7@coord"
+  - "&cGameMode: &7@gamemode"
+  - "&cOP: &7@op"
+  - "&cIP: &7@ip"
+  Player_Morreu: "&f@killer &ematou o player &f@player &eusando &f@item&e!"
+  Foi_Morto: "&cVoce foi morto pelo player &7@killer&c!"
+  Erro:
+    Aguarde: "&cAguarde &7@tempo &cpara usar este comando novamente!"
+    Sem_Money: "&cVoce precisa de mais &7R$@money &cpara poder utilizar este comando!"
+    Sem_Dinheiro: "&cVoce precisa de &7R$@valor &cpara falar no global!"
+    Sem_Esponja: "&cVoce nao tem uma esponja em seu inventario!"
+    Sem_Staff_On: "&cNao ha nenhum staff online!"
+    Player_Offline: "&cEste player nao esta online!"
+    Inventario_Cheio: "&cSeu inventario esta cheio!"
+    Nao_E_Numero: "&cUtilize apenas numeros!"
+    Enchant_Nao_Existe: "&cEste encantamento nao existe!"
+    Sem_Item: "&cVoce nao tem um item em sua mao!"
+    Enchant_Maximo: "&cVoce so pode encantar itens ate o level 10!"
+    Item_Ja_Banido: "&cEste item ja esta banido!"
+    Item_Nao_Existe: "&cEste item nao existe!"
+    Uso_Correto:
+      Megafone: "&cUtilize &7/anuncio <msg>&c!"
+      Ajuda: "&cUtilize &7/ajuda <duvida>&c!"
+      Report: "&cUtilize &7/report <player> <motivo>&c!"
+      Check: "&cUtilize &7/check <player>&c!"
+      Bc: "&cUtilize &7/bc <msg>&c!"
+      Enchant: "&cUtilize &7/enchant <enchant> <level>&c!"
+      BanItem: "&cUtilize &7/banitem <item/id>&c!"
+  Sucesso:
+    Usou_Buff: "&bVoce usou o BUFF e pagou &fR$@money&b!"
+    Usou_Buff_All: "\n\n&dO player &5@player &dusou BUFF!\n\n"
+    Fumou: "&bVoce ficou doidao!"
+    Ping: "&6Seu ping: &7@pingms ms!"
+    Ping_Outro: "&6Ping do player @player: &7@pingms ms!"
+    Abriu_Lixeira: "&aA lixeira foi aberta a voce!"
+    Desativou_Lanterna: "&cVoce desativou a lanterna!"
+    Ativou_Lanterna: "&aVoce ativou a lanterna!"
+    Pegou_Cabeca: "&aVoce pegou sua cabeca!"
+    Pegou_Cabeca_Outro: "&bVoce pegou a cabeca do player &f@player&b!"
+    Encantou: "&aVoce adicionou o encantamento &f@enchant &aao item em sua mao!"
+    Baniu_Item: "&aVoce baniu este item com sucesso!"
+    Pedido_De_Ajuda_Enviado: "&aVoce enviou um pedido de ajuda para &f@staffs &astaffs!"
+    Pedido_De_Ajuda_Recebido:
+    - "&6&l-----===== &f&lPedido de Ajuda &6&l=====-----"
+    - "&bPlayer&f&l: &3@player"
+    - "&aDuvida&f&l: &2@ajuda"
+    - "&6&l-----===== &f&lPedido de Ajuda &6&l=====-----"
+    Report_Enviado: "&aVoce enviou um report para &f@staffs &astaffs!"
+    Report_Recebido:
+    - "&6&l-----===== &f&lReport &6&l=====-----"
+    - "&bPlayer&f&l: &3@player"
+    - "&cReportado&f&l: &4@infrator"
+    - "&aReport&f&l: &2@report"
+    - "&6&l-----===== &f&lReport &6&l=====-----"

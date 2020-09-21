@@ -1,0 +1,225 @@
+Config:
+  Key: "SUAKEYAQUI"
+  Use_SimpleClans: false
+  Comandos:
+    Principal:
+    - /x1
+    - /duelo
+    Desafiar: desafiar
+    Aceitar: aceitar
+    Recusar: recusar
+    Camarote: camarote
+    Rank: rank
+    Arenas: arenas
+    Kits: kits
+    SetLocation: setlocation
+    Cancelar: cancelar
+    Reset: reset
+  SQL:
+    Tipo: 2
+    Usuario: root
+    Senha: root
+    DataBase: minecraft
+    Host: 127.0.0.1
+  Rank:
+    Ativar: true
+    TOP_Vitorias_Limite: 5
+    TOP_Derrotas_Limite: 5
+  Aposta_Minima: 5000
+  Aposta_Maxima: 1000000
+  Tempo_Aceitar: 60
+  Tempo_X1: 30
+  Tempo_Iniciar_X1: 5
+  Tempo_Ver_Rank: 60
+  Tempo_Desafiar: 60
+  Tempo_Pegar_Items: 30
+  Avisar_Desafio_A_Todos: false
+  DC_Kill: true
+  Formato_Mais_Venceu: "&3#{colocacao} &f- &3{player} &f= &3{vitorias} Vitorias"
+  Formato_Mais_Perdeu: "&3#{colocacao} &f- &3{player} &f= &3{derrotas} Derrotas"
+  Ativar_Fireworks_Vencedor: true
+  Comando_Arenas:
+    Usar_GUI: true
+    Inv_Size: 9
+    Inv_Title: "&6&lArenas"
+    Item_Arena_Ocupada: "item:49 nome:&6&l{arena} lore:&c&lOcupada@&7X1_entre_&c&l{player1}&7x&c&l{player2}"
+    Item_Arena_Livre: "item:2 nome:&6&l{arena} lore:&a&lLivre@&7/x1_desafiar_<player>_[aposta]_{arena}_[kit]"
+  Comandos_Liberados:
+  - money
+  - .
+  - g
+  Kits:
+    proprio:
+      Custo: 5000
+      Proprio: true
+      Perde: false
+    proprio-perde:
+      Proprio: true
+      Padrao: true
+    p4:
+      Custo: 10000
+      Armadura:
+        Capacete: "item:310 qnt:1 enchants:protecao:4,inquebravel:3"
+        Peitoral: "item:311 qnt:1 enchants:protecao:4,inquebravel:3"
+        Calca: "item:312 qnt:1 enchants:protecao:4,inquebravel:3"
+        Bota: "item:313 qnt:1 enchants:protecao:4,inquebravel:3"
+      Itens:
+      - "item:276 qnt:1 enchants:afiada:5,aspecto_flamejante:2,inquebravel:3"
+      - "item:261 qnt:1 enchants:forca:5,inquebravel:3,chama:1,infinidade:1"
+      - "item:322:1 qnt:16"
+      - "pocao:forca qnt:5 amplificador:2 duracao:60 splash:true"
+      - "pocao:velocidade qnt:5 amplificador:2 duracao:60 splash:true"
+      - "item:262 qnt:1"
+    sorte:
+      Armadura:
+        Capacete: "item:310,306 qnt:1 enchants:protecao:4,inquebravel:3"
+        Peitoral: "item:311,307 qnt:1 enchants:protecao:4,inquebravel:3"
+        Calca: "item:312,308 qnt:1 enchants:protecao:4,inquebravel:3"
+        Bota: "item:313,309 qnt:1 enchants:protecao:4,inquebravel:3"
+      Itens:
+      - "item:276,267 qnt:1 enchants:afiada:5,aspecto_flamejante:2,inquebravel:3"
+      - "item:261 qnt:1 enchants:forca:5,inquebravel:3,chama:1,infinidade:1 chance:50"
+      - "item:322:1 qnt:16"
+      - "pocao:forca qnt:5 amplificador:2 duracao:60 splash:true chance:50"
+      - "pocao:velocidade qnt:5 amplificador:2 duracao:60 splash:true chance:50"
+      - "item:262 qnt:1"
+    
+Mensagem:
+  Comandos:
+  - "&6Comandos do X1:"
+  - "&6{cmd} desafiar <player> [aposta] [arena] [kit] &7* &cDesafie um player para x1!"
+  - "&6{cmd} aceitar <player> &7* &cAceite um desafio de um player!"
+  - "&6{cmd} recusar <player> &7* &cRecuse o desafio de um player!"
+  - "&6{cmd} camarote <arena> &7* &cVa até o camarote de uma arena!"
+  - "&6{cmd} rank <perdeu/venceu> &7* &cVeja quem mais venceu/perdeu X1s!"
+  - "&6{cmd} arenas &7* &cVeja a lista de arenas do servidor!"
+  - "&6{cmd} kits &7* &cVeja os kits disponiveis para X1!"
+  BC:
+    Desafio:
+    - ""
+    - ""
+    - "&dO player &5{player1} &dconvidou o player &5{player2} &dpara um X1!"
+    - "&dEste X1 é com o kit &5{kit}&d!"
+    - "&dCaso o player &5{player2} &daceite, esse X1 ocorrerá na arena &5{arena}&d!"
+    - "&dEste X1 tem uma aposta de &5R${aposta}&d!"
+    - ""
+    - ""
+    Desafio_Expirou:
+    - ""
+    - ""
+    - "&dDesafio entre o &5{player1} &de o player &5{player2} &dexpirou!"
+    - ""
+    - ""
+    X1_Encerrado_Tempo:
+    - ""
+    - ""
+    - "&dX1 entre o &5{player1} &de o player &5{player2} &dacabou!"
+    - ""
+    - ""
+    Aceitou_Desafio:
+    - ""
+    - ""
+    - "&dO player &5{player1} &daceitou o desafio do player &5{player2} &dpara um X1!"
+    - "&dEste X1 é com o kit &5{kit}&d!"
+    - "&dEsse X1 ocorrerá na arena &5{arena}&d!"
+    - "&dEste X1 tem uma aposta de &5R${aposta}&d!"
+    - "&dPara ir até o camarote utilize &5&l/x1 camarote {arena}&d!"
+    - ""
+    - ""
+    Recusou_X1:
+    - ""
+    - ""
+    - "&dO player &5{player} &drecusou o desafio do player &5{desafiador} &dpara um X1!"
+    - "&dEste X1 tenha uma aposta de &5R${aposta}&d!"
+    - ""
+    - ""
+    X1_Comecou:
+    - ""
+    - ""
+    - "&dO X1 entre o player &5{player1} &de o player &5{player2} &dcomecou!"
+    - "&dEste X1 é com o kit &5{kit}&d!"
+    - "&dEsse X1 ocorrerá na arena &5{arena}&d!"
+    - "&dEste X1 tem uma aposta de &5R${aposta}&d!"
+    - "&dPara ir até o camarote utilize &5&l/x1 camarote {arena}&d!"
+    - ""
+    - ""
+    Ganhou:
+    - ""
+    - ""
+    - "&dO player &5{vencedor} &dganhou do player &5{perdedor} &dem um X1!"
+    - "&dO player &5{vencedor} &dganhou &5R${aposta}&d!"
+    - "&dO vencedor tem &530 &dsegundos para pegar seus itens!"
+    - ""
+    - ""
+    Staff_Cancelou:
+    - ""
+    - ""
+    - "&dO staff &5{staff} &dcancelou o X1 entre o player &5{player1} &de o player &d{player2}&d!"
+    - ""
+    - ""
+    X1_Cancelado:
+    - ""
+    - ""
+    - "&dX1 entre o player &5{player1} &de o player &d{player2}&d cancelado!"
+    - "&dMotivo: &5Um dos players deslogou!"
+    - ""
+    - ""
+  Erro:
+    Uso_Correto:
+      Desafiar: "&6&l[FX1] &cUtilize &7{cmd} desafiar <player> [aposta] [arena] [kit]&c!"
+      Aceitar: "&6&l[FX1] &cUtilize &7{cmd} aceitar <player>&c!"
+      Recusar: "&6&l[FX1] &cUtilize &7{cmd} recusar <player>&c!"
+      Camarote: "&6&l[FX1] &cUtilize &7{cmd} camarote <arena>&c!"
+      Rank: "&6&l[FX1] &cUtilize &7{cmd} rank <perdeu/venceu>&c!"
+      SetLocation: "&6&l[FX1] &cUtilize &7{cmd} setlocation <arena> <player1|player2|camarote|saida>&c!"
+      Cancelar: "&6&l[FX1] &cUtilize &7{cmd} cancelar <player> [player2]&c!"
+      Reset: "&6&l[FX1] &cUtilize &7{cmd} reset <player> <derrotas/vitorias>&c!"
+    Sem_Permissao: "&6&l[FX1] &cVocê não tem permissão para utilizar este comando!"
+    Player_Offline: "&6&l[FX1] &cPlayer &7{player} &cnão encontrado!"
+    Player_Ja_Esta_Em_X1: "&6&l[FX1] &cEste player já está em um X1!"
+    Player_Nao_Esta_Em_X1: "&6&l[FX1] &cPlayer &7{player} &cnão se encontra em um X1!"
+    X1_Nao_Encontrado: "&6&l[FX1] &cNenhum X1 encontrado entre os players informados!"
+    Aposta_Ideal: "&6&l[FX1] &cSua aposta tem de estar em &7R$5.000 &ce &7R$1.000.000&c!"
+    Arena_Nao_Existe: "&6&l[FX1] &cNao existe nenhuma arena disponivel no momento!"
+    Arena_Informada_Nao_Existe: "&6&l[FX1] &cNao existe nenhuma arena com o nome informado!"
+    Arena_Ocupada: "&6&l[FX1] &cA arena que você está tentando usar está ocupada!"
+    Kit_Nao_Existe: "&6&l[FX1] &cO kit informado nao existe!"
+    Kit_Padrao_Nao_Definido: "&6&l[FX1] &cParece que o kit padrao nao foi setado. Fale com um &c&lADMIN&c!"
+    Ja_Desafiou: "&6&l[FX1] &cVocê já convidou o player &7{player} &cpara um X1, espere ele aceitar/recusar!"
+    Ja_Desafiado: "&6&l[FX1] &cVocê já foi desafiado pelo player &7{player}&c!"
+    Aguarde_Desafiar: "&6&l[FX1] &cAguarde &7{tempo} &cpara desafiar um player para X1 novamente!"
+    Sem_Dinheiro: "&6&l[FX1] &cParece que um dos players não tem dinheiro suficiente!"
+    Sem_Dinheiro_Kit: "&6&l[FX1] &cVocê não tem dinheiro suficiente para bancar este kit!"
+    Sem_Dinheiro_Kit_Outro: "&6&l[FX1] &cO outro player não tem dinheiro para bancar o kit desse x1!"
+    Ja_Esta_Em_X1: "&6&l[FX1] &cVocê já está em um X1!"
+    Nao_Desafiou: "&6&l[FX1] &cO player &7{player} &cnão lhe desafiou para um X1!"
+    Player_Morto: "&6&l[FX1] &cO player que você está aceitando X1 está morto!"
+    X1_Ja_Comecou: "&6&l[FX1] &cVocê não pode recusar um X1 que já comecou!"
+    Aguarde_Rank: "&6&l[FX1] &cAguarde mais &7{tempo} &cpara ver o rank novamente!"
+    Rank_Desativado: "&6&l[FX1] &cO rank está desativado!"
+    Sem_Arenas: "&6&l[FX1] &cNão foram setadas arenas até o momento!"
+    Sem_Kits: "&6&l[FX1] &cNão foram criados kits até o momento!"
+    Nao_Pode_Se_Desafiar: "&6&l[FX1] &cVocê não pode se desafiar!"
+    Aposta_Par: "&6&l[FX1] &cInforme um valor par para aposta!"
+    Vitorias_Ou_Derrotas: "&6&l[FX1] &cInforme apenas &7vitorias &cou &7derrotas&c!"
+    Comando_Bloqueado_Durante_X1: "&6&l[FX1] &cVocê não pode usar este comando durante um X1!"
+  Sucesso:
+    X1_Iniciando: "&6&l[FX1] &bX1 iniciando em &3&l{tempo} segundo(s)&b!"
+    TP_Camarote: "&6&l[FX1] &bVocê foi teleportado até o camarote da arena &3&l{arena}&b!"
+    Fazendo_Consulta: "&6&l[FX1] &bFazendo consulta de quem mais {vp}..."
+    Consulta_Finalizada: "&6&l[FX1] &aConsulta finalizada!"
+    Setou_Location: "&6&l[FX1] &bVocê setou a localização &3&l{loc} &bda arena &3&l{arena}&b!"
+    Lista_Kits: "&6&l[FX1] &bLista de kits: {kits}&b!"
+    Lista_Arenas: "&6&l[FX1] &bLista de arenas: {arenas}&b!"
+    Resetou: "&6&l[FX1] &bVocê resetou o status de &3{tipo} &bdo player &3{player}&b!"
+    Desafio:
+    - ""
+    - ""
+    - "&dO player &5{player} &dlhe convidou para um X1!"
+    - "&dEste X1 é com o kit &5{kit}&d!"
+    - "&dEsse X1 ocorrerá na arena &5{arena}&d!"
+    - "&dEste X1 tem uma aposta de &5R${aposta}&d!"
+    - "&dPara aceitar esse X1 utilize &5&l{cmd} aceitar {player}&d!"
+    - "&dPara recusar esse X1 utilize &5&l{cmd} recusar {player}&d!"
+    - ""
+    - ""

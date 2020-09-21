@@ -1,0 +1,7 @@
+name: HJokenpo
+version: 0.1b
+author: Dery
+main: me.dery.hjokenpo.HJokenpo
+
+commands:
+    jokenpo:

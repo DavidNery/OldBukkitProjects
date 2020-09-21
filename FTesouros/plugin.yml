@@ -1,0 +1,7 @@
+name: FTesouros
+version: 0.1b
+main: me.zfork.ftesouros.FTesouros
+author: zFork
+
+commands:
+    tesouro:

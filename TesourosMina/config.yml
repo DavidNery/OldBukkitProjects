@@ -1,0 +1,42 @@
+Nao_Pode_Abrir_Outros_Baus: "&cVocê não pode abrir baús que não te pertencem."
+
+Regioes:
+  mina:
+    Chance: 50
+    Items:
+    - "item:276 enchants:16:5,34:3,19:2,20:2 nome:&6Espada_Tesouro"
+    - "item:310 enchants:0:4,34:3 nome:&6Capacete_Tesouro"
+    - "item:311 enchants:0:4,34:3 nome:&6Peitoral_Tesouro"
+    - "item:312 enchants:0:4,34:3 nome:&6Calça_Tesouro"
+    - "item:313 enchants:0:4,34:3 nome:&6Botas_Tesouro"
+    - "item:322:1 qnt:64"
+    - "item:276 enchants:16:10,34:5,19:5,20:2 nome:&6Espada_Tesouro chance:50"
+    Mensagem_Player:
+    - ""
+    - "&6Você achou um baú do tesouro :D"
+    - ""
+    Ativar_BC: true
+    Broadcast: "&7{player} &cachou um tesouro!"
+    Broadcast_Raro: "&7{player} &cachou um tesouro com um item &c&lRARO&c!"
+    Remover: 15
+    Blocos_Possiveis:
+    - 21
+    - 22
+  mina_pvp:
+    Chance: 10
+    Items:
+    - "item:276 enchants:16:10,34:3,19:2,20:2 nome:&6Espada_Tesouro"
+    - "item:322:1 qnt:64"
+    Mensagem_Player:
+    - ""
+    - "&6Você achou um baú do tesouro :D"
+    - ""
+    Ativar_BC: true
+    Broadcast: "&7{player} &cachou um tesouro!"
+    Broadcast_Raro: "&7{player} &cachou um tesouro com um item &c&lRARO&c!"
+    Remover: 15
+    Blocos_Possiveis:
+    - 1
+    - 2
+    - 21
+    - 22

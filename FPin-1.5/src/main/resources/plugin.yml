@@ -1,0 +1,7 @@
+name: FPin
+version: 0.1b
+author: zFork
+main: me.zfork.fpin.FPin
+
+commands:
+    pin:

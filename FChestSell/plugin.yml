@@ -1,0 +1,7 @@
+name: FChestSell
+version: 0.1
+author: zFork
+main: me.zfork.fchestsell.FChestSell
+
+commands:
+    venderlapisb:

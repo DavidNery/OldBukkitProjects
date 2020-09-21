@@ -1,0 +1,30 @@
+Uso_Correto: "&c[!] &7Utilize &f/jokenpo <desafiar,aceitar,info> <player> [premio R$]"
+Uso_Correto_Desafiar: "&c[!] &7Utilize &f/jokenpo desafiar <player> [premio R$]"
+Uso_Correto_Aceitar: "&c[!] &7Utilize &f/jokenpo aceitar <player>"
+Player_Offline: "&c[!] &7O player informado nao esta online!"
+Ja_Esta_Desafio: "&c[!] &7Um dos player ja esta em um desafio!"
+Somente_Numeros: "&c[!] &7Utilize apenas numeros!"
+Sem_Money: "&c[!] &7Um dos player nao tem dinheiro suficiente!"
+Ja_Desafiou: "&c[!] &7Voce ja desafiou este player, espere ele aceitar!"
+Esta_Longe: "&c[!] &7O outro player esta muito longe de voce!"
+Player_Morto: "&c[!] &7O outro player esta morto!"
+Nao_Desafiou: "&c[!] &7Voce nao foi desafiado por este player!"
+Si_Desafiar: "&c[!] &7Voce nao pode se desafiar!"
+Si_Aceitar: "&c[!] &7Voce nao pode aceitar um desafio de voce mesmo!"
+Valor_Baixo: "&c[!] &7O valor do premio tem que ser maior que 1!"
+Desafiou: "&a[!] &7Voce desafiou o player &f@player &7para um jokenpo valendo &fR$@money&7!"
+Desafiado: "&b[!] &7Voce foi desafiado pelo player &f@player &7para um jokenpo valendo &fR$@money&7!!\n&e[!] &7Para aceitar utilize &f/jokenpo aceitar @player&7!"
+Aceitou_Desafio: "&a[!] &7Voce aceitou o desafio do player &f@player&7!"
+Desafio_Aceito: "&b[!] &7O player &f@player&7 aceitou seu desafio para um jokenpo!"
+Deslogou: "&b[!] &7O outro player deslogou! Desafio cancelado!"
+Venceu: "&e[!] &7Voce venceu o JokenPo!"
+Perdeu: "&f[!] &7Voce perdeu o JokenPo!"
+Empate: "&3[!] &7O JoKenPo deu empate!"
+Jokenpo_Inv_Nome: "&3&lJoKenPo"
+AutoCompletar_Inv: true
+Item_Completar: 102
+Distancia_Desafiar: 100
+Premio_Padrao: 5000
+Info:
+- "&6Explique como funciona o jokenpo aqui"
+- "&eDeixei voce explicar (preguica rs)"

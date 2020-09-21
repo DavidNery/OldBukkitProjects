@@ -1,0 +1,36 @@
+Sem_Itens: "&c[!] &7Nao ha itens para serem vendidos no mercado!"
+Uso_Correto: "&c[!] &7Utilize &f/mercado vender <preco R$>&7!"
+Sem_Item: "&c[!] &7Voce nao tem nenhum item em sua mao!"
+Nao_Eh_Numero: "&c[!] &f@erro &7nao e um numero valido!"
+Nao_Pode: "&c[!] &7Voce nao pode vender um item do tipo &f@item&7!"
+Menor_Que_0: "&c[!] &7O preco do item tem que ser maior que zero!"
+Sem_Paginas: "&c[!] &7Nao ha mais paginas para serem vistas!"
+Nao_Pode_Comprar_Si_Mesmo: "&c[!] &7Voce nao pode comprar itens de si mesmo!"
+Sem_Money: "&c[!] &7Voce nao tem dinheiro suficiente para comprar este item!"
+Inv_Cheio: "&c[!] &7Seu inventario esta cheio!"
+Ja_Vendido: "&c[!] &7Este item ja foi vendido!"
+Nao_E_Seu: "&c[!] &7Voce nao pode retirar este item do mercado, pois nao eh voce que o esta vendendo!"
+Nao_Esta_A_Venda: "&c[!] &7Este item nao esta a venda, provavelmente voce o retirou do mercado!"
+Mercado_Atualizando: "&c[!] &7O mercado esta atualizando, nao eh possivel fazer isso!"
+Abrindo: "&a[!] &7Abrindo o mercado. Aguarde!"
+Vendeu: "&b[!] &7Voce colocou &f@quantidade &7um(a) &f@item&7 a venda por &fR$@preco&7 no mercado!"
+Removeu_Item: "&b[!] &7Voce removeu este item do mercado!"
+Comprou: "&a[!] &7Voce comprou um item ao player &f@vendedor &7por &f@preco&7!"
+Minimo_Vender: 100000
+Sem_Dinheiro_Vender: "&c[!] &7Voce precisa de &fR$@necessario &7para poder vender um item no mercado!"
+Tempo_Atualizar_Mercado: 30
+Anunciar_Atualizacao_Mercado: true
+Mercado_Atualizado: "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&b[!] &7O mercado foi atualizado, itens ja compros/retirados removidos!"
+Maximo_Vendas: 10
+Nao_Pode_Vender_Mais: "&c[!] &7Voce nao pode vender mais itens pois voce atingiu o limite maximo (&f10&7)!"
+Ativar_WhiteList: true
+WhiteList:
+- 267
+- 276
+- 261
+- 310
+- 311
+- 312
+- 313
+- 373
+- 322

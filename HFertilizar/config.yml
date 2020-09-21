@@ -1,0 +1,8 @@
+Sem_Permissao: "&cVoce nao tem permissao!"
+Aguarde: "&cAguarde &7@tempo &cpara usar este comando novamente!"
+Sem_Dinheiro: "&cVoce precisa de R$@necessario para fertilizar essa area.\n&eFalta R$@falta para voce poder fertilizar!"
+Nao_E_Necessario: "&cNao ha nenhuma plantacao que precise ser fertilizada em um raio de 25 blocos!"
+Fertilizou: "&aVoce pagou @preco e fertilizou essa area com sucesso!"
+Raio: 25
+Preco: 10000
+Tempo: 60

@@ -1,0 +1,10 @@
+Regioes:
+  lojavip:
+    Grupos:
+    - "VIP"
+    - "VIP+"
+  minavip:
+    Grupos:
+    - "VIP"
+    - "VIP+"
+Nao_Pode_Entrar: "&cVoce nao pode entrar nessa area!"

@@ -1,0 +1,29 @@
+Config:
+  Valor_Quebrar: 100000
+  Tipos_Spawn:
+  - SPAWNER
+  - SPAWNER_EGG
+  Tipos_de_Mobs:
+  - CREEPER
+  - SKELETON
+  - ZOMBIE
+  - SPIDER
+  - SLIME
+  - PIG_ZOMBIE
+  - ENDERMAN
+  - CAVE_SPIDER
+  - BLAZE
+  - PIG
+  - SHEEP
+  - COW
+  - CHICKEN
+  - MUSHROOM_COW
+  Raio_X: 25
+  Raio_Y: 25
+  Raio_Z: 25
+  
+Mensagem:
+  Mob_Spawner_Alterado: "&6&lFMobSpawn &aTipo do spawner alterado para &f{tipo}&c!"
+  Quebrou_Mob_Spawn: "&6&lFMobSpawn &aVoce quebrou um mobspawner de {tipo}!"
+  Sem_Dinheiro_Quebrar: "&6&lFMobSpawn &cVoce precisa de R$100.000,00 para quebrar uma gaiola!"
+  Sem_Permissao: "&6&lFMobSpawn &cVoce nao pode quebrar este tipo de mob spawner!"

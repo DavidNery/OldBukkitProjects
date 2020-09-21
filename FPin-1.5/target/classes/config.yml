@@ -1,0 +1,58 @@
+Config:
+  #Lista de SMTPs de emails conhecidos + Port:
+  #Gmail: smtp.gmail.com |--- Porta: 465 ---|
+  #Yahoo: smtp.mail.yahoo.com |--- Porta: 465 ---|
+  #Hotmail: smtp.live.com |--- Porta: 587 ---|
+  #Caso o seu smtp seja do gmail, o email abaixo so podera ser do gmail e assim por diante!
+  SMTP: "smtp.gmail.com"
+  SMTP_Port: 465
+  Email: "meuemail@gmail.com"
+  Senha: "senhadomeuemail"
+  Assunto: "Seu PIN do MEU SERVIDOR!"
+  Usuario: "Meu Servidor"
+  Conteudo_Email_Enviado:
+  - '<p align="center"><a href="http://blog.mrpowergamerbr.com" target="parent"><img src="http://lori.mrpowergamerbr.com/sharex/javaw_2016-07-31_10-23-09.png" width="200" height="200" alt="Aqui tem uma imagem bem pika" title="Creditos ao MrPowerGamerBR pela imagem!"></a></p>'
+  - '<br><font size=3 face="Verdana">Ola <strong><player/></strong>!</font>'
+  - '<br><br><font size=2 face="Verdana">Voce esta recebendo este email porque alguem solicitou seu PIN no servidor MEU SERVIDOR!'
+  - '<br>Seu PIN e: <strong><pin/></strong>'
+  - '<br>IP de quem solicitou o PIN: <strong><ip/></strong>'
+  - '<br>Data e Hora da solicitacao: <strong><data/></strong>'
+  - '<br>Caso voce nao tenha solicitado esse email, mude sua senha no servidor <strong><font color="red">URGENTEMENTE</font><strong>!</font>'
+  - '<p align="right"><br><br><font size=3 face="Verdana" align="right">Atenciosamente, equipe MEU SERVIDOR!</font></p>'
+  Caracteres_Senha: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+  Tamanho_Senha: 10
+  Caracteres_PIN: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+  Tamanho_PIN: 10
+  Comando_Executado: "authme changepassword @player @senha"
+
+Mensagem:
+  Erro:
+    Sem_Permissao: "&6&lPIN &cVoce nao tem permissao para utilizar este comando!"
+    Poucos_Argumentos: "&6&lPIN &cUtilize &7/pin <ativar/recuperar> <email> <data de nascimento(dia/mes/ano - 00/00/0000)> [pin]&c!"
+    Poucos_Argumentos_Recuperar: "&6&lPIN &cUtilize &7/pin recuperar <email> <data de nascimento(dia/mes/ano - 00/00/0000)> [pin]&c!"
+    Poucos_Argumentos_Ativar: "&6&lPIN &cUtilize &7/pin ativar <email> <data de nascimento(dia/mes/ano)>&c!"
+    Poucos_Argumentos_Remover: "&6&lPIN &cUtilize &7/pin remover <player>&c!"
+    Nao_Tem_Pin: "&6&lPIN &cEsta conta nao tem um pin cadastrado!"
+    Pin_Incorreto: "&6&lPIN &cO pin informado esta incorreto!"
+    Email_Incorreto: "&6&lPIN &cEste email nao corresponde ao email desta conta!"
+    Data_Incorreta: "&6&lPIN &cEsta data nao corresponde a data desta conta!"
+    Tem_Pin: "&6&lPIN &cEsta conta ja tem um PIN!"
+    Nao_E_Email: "&6&lPIN &7@fakeemail &cnao e um email valido!"
+    Nao_E_Data: "&6&lPIN &7@fakedata &cnao e uma data valida!"
+    Nao_Esta_Logado: "&6&lPIN &cVoce precisa estar logado para ativar seu PIN!"
+  Sucesso:
+    Enviando_Email: "&6&lPIN &bEnviando seu pin para o email @email!"
+    Email_Enviado: "&6&lPIN &aFoi enviado um email para o email da sua conta com o seu PIN!"
+    Removeu_PIN: "&6&lPIN &aVoce removeu o PIN do player &2@player&a!"
+    Senha_Aterada:
+    - "&6&lMEU SERVIDOR"
+    - "&2Ola &a@player&2, sua senha foi alterada com sucesso!"
+    - "&2Sua nova senha e: &a@senha&2!"
+    - "&2Mais cuidado da proxima vez!"
+    PIN_Ativado:
+    - "&6&lMEU SERVIDOR"
+    - "&2Ola &a@player&2, seu PIN foi ativado com sucesso!"
+    - "&2Seu PIN e: &a@pin"
+    - "&2Email: &a@email"
+    - "&2Data de nascimento: &a@data"
+    - "Anote todas essas informacoes, elas lhe serao necessarias para recuperar sua conta futuramente!"

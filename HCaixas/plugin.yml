@@ -1,0 +1,7 @@
+name: HCaixas
+version: 0.1b
+author: Dery
+main: me.dery.hcaixas.HCaixas
+
+commands:
+    caixa:

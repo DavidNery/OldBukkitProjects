@@ -1,0 +1,7 @@
+name: SpartanosInvRestorer
+version: 0.1
+main: me.zfork.spartanoscraft.spartanosinvrestorer.SpartanosInvRestorer
+author: [zFork, SpartanosCraft]
+
+commands:
+    invsrestorer:

@@ -1,0 +1,46 @@
+MainInv:
+  Tamanho: 9
+  Nome: "&6&lKITS"
+  Slots:
+    1-9:
+      Item: "item:160:15 nome:&7_"
+    4:
+      Item: "item:267 nome:&6Pegar_kit_&7PvP lore:&7_@&6Clique_para_pegar_este_kit!@&7_"
+      Kit_Usado: "item:267 nome:&c&lVocê_já_pegou_o_kit_&7PvP lore:&7_@&6Aguarde_mais_&7{tempo}_&6para_pegar_o_kit_novamente!"
+      Acao: "dar kit PvP"
+    6:
+      Item: "item:311 nome:&7Kits_&5&lVIPS!"
+      Acao: "abrir inv vips"
+      
+Preview_Inv:
+  Nome: "&cPreview &f{kit} &c- &f{pagina}"
+  NextItem: "cabeca:MHF_ArrowRight nome:&aAvançar"
+  PreviousItem: "cabeca:MHF_ArrowLeft nome:&cVoltar"
+  NextItem_Local: 51
+  PreviousItem_Local: 49
+  Slots:
+    1,2,3,10,11,19,7,8,9,17,18,27,28,37,38,46,47,48,36,44,45,52,53,54: "item:160:15"
+  ItemsSlots: "12,13,14,15,16,20,21,22,23,24,25,26,29,30,31,32,33,34,35,39,40,41,42,43"
+
+OtherInvs:
+  vips:
+    Nome: "&6&lKits VIPS"
+    Tamanho: 9
+    Slots:
+      1-9:
+        Item: "item:160:15 nome:&7_"
+      3:
+        Item: "item:283 nome:&6Pegar_kit_&7Ouro lore:&7_@&6Clique_para_pegar_este_kit!@&7_"
+        Kit_Usado: "item:283 nome:&c&lVocê_já_pegou_o_kit_&7Ouro lore:&7_@&6Aguarde_mais_&7{tempo}_&6para_pegar_o_kit_novamente!"
+        Acao: "dar kit Ouro"
+      5:
+        Item: "item:267 nome:&6Pegar_kit_&7Ferro lore:&7_@&6Clique_para_pegar_este_kit!@&7_"
+        Kit_Usado: "item:267 nome:&c&lVocê_já_pegou_o_kit_&7Ferro lore:&7_@&6Aguarde_mais_&7{tempo}_&6para_pegar_o_kit_novamente!"
+        Acao: "dar kit Ferro"
+      7:
+        Item: "item:276 nome:&6Pegar_kit_&7Dima lore:&7_@&6Clique_para_pegar_este_kit!@&7_"
+        Kit_Usado: "item:276 nome:&c&lVocê_já_pegou_o_kit_&7Dima lore:&7_@&6Aguarde_mais_&7{tempo}_&6para_pegar_o_kit_novamente!"
+        Acao: "dar kit Dima"
+      1:
+        Item: "item:166 nome:&cVoltar"
+        Acao: "abrir inv main"

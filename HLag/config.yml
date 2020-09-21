@@ -1,0 +1,28 @@
+Config:
+  Mob_Spawn_Raio: 20
+  Mob_Raio: 20
+  Limite_Mobs: 10
+  World_BlackList:
+  - naolimpar
+  - estasalvo
+  - coloquemais
+  Tempo_Limpar: 300
+  Anuncios_Limpar:
+  - "60->&f[!] &cO chao sera limpo em 60 segundos!"
+  - "30->&f[!] &cO chao sera limpo em 30 segundos!"
+  - "20->&f[!] &cO chao sera limpo em 20 segundos!"
+  - "10->&f&l[!] &c&lO chao sera limpo em 10 segundos!"
+  - "5->&f&l[!] &c&lO chao sera limpo em 5 segundos!"
+
+Mensagem:
+  Sem_Permissao: "&c[!] &7Voce nao pode utilizar este comando, vlw flw!"
+  Outro_MobSpawn: "&c[!] &7Ja existe outro mobspawn perto do seu, coloque um pouco mais longe!"
+  Argumentos: "&c[!] &7Utilize &f/hlag <limpar/limparchunks/limpartudo>&7!"
+  Ja_Sera_Limpo: "&c[!] &7Aguarde, o chao ja sera limpo em poucos segundos!"
+  Sera_Limpo: "&e[!] &7O chao sera limpo em 5 segundos!"
+  Sera_Limpo_Tudo: "&e[!] &7Todos os chunks/items/mobs serao limpos em 5 segundos!"
+  Sera_Limpo_Tudo_All: "&e[!] &7Todos os chunks/items/mobs serao limpos em 5 segundos!"
+  Sera_Limpo_All: "&e[!] &7O chao sera limpo em 5 segundos!"
+  Chao_Sera_Limpo: "&c[!] &7Drop cancelado! O chao sera limpo em &f5 &7segundos!"
+  Chao_Limpo: "&b[!] &7Foram removidos &f{quantidade} &7items/mobs do servidor!"
+  Chunks_Limpos: "&b[!] &7Chunks limpos!"

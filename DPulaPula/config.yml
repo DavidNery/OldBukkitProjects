@@ -1,0 +1,135 @@
+Config:
+  Auto_Start:
+    Ativar: true
+    Dias:
+    - 'segunda 10:00'
+    - 'terca 10:00'
+    - 'terca 10:01'
+    - 'quarta 10:00'
+    - 'quinta 10:00'
+    - 'sexta 10:00'
+    - 'sabado 10:00'
+    - 'domingo 10:00'
+  Anuncios: 2
+  Tempo_Anuncios: 5
+  Min_Players: 2
+  Premio: 50000.0
+  Altura_Pulo: 1
+  Force_Empty_Inventory: true
+  Force_Fly_Off: true
+  Force_GM_0: true
+  Disable_PvP: true
+  Disable_Damage: true
+  Lose_Fall_Water: true
+  Ativar_Comandos_Vencedor: true
+  Comandos_Vencedor:
+  - 'say {vencedor} Venceu :>'
+  - 'bc &5&l{vencedor} Venceu :>'
+  - 'effect {vencedor} SPEED 60 1'
+  Comandos_Liberados:
+  - 'pulapula sair'
+  - 'megafone'
+  - 'desbugar'
+  - 'tell'
+  - 'r'
+  - '.'
+  - 'clan'
+  - 'aceitar'
+  - 'recusar'
+  Placa:
+    Linha_1: '&3&l[PulaPula]'
+    Linha_2: '&5Clique e'
+    Linha_3: '&2&lGANHE!'
+    Linha_4: ''
+
+Mensagem:
+  Comandos_Player:
+  - '&6Comandos do Evento PulaPula:'
+  - '&7/pulapula entrar &f* &eEntre no Evento PulaPula!'
+  - '&7/pulapula sair &f* &eSaia do Evento PulaPula'
+  Comandos_Admin:
+  - '&7/pulapula iniciar &f* &eInicie o Evento PulaPula!'
+  - '&7/pulapula parar &f* &ePare o Evento PulaPula!'
+  - '&7/pulapula setspawn &f* &eSete o spawn do Evento PulaPula!'
+  - '&7/pulapula setlobby &f* &eSete o lobby do Evento PulaPula!'
+  - '&7/pulapula setexit &f* &eSete a saida do Evento PulaPula!'
+  Comandos_Console:
+  - '&6Comandos do Evento PulaPula:'
+  - '&7/pulapula iniciar &f* &eInicie o Evento PulaPula!'
+  - '&7/pulapula parar &f* &ePare o Evento PulaPula!'
+  Eliminado: '&bVocê caiu na água e foi eliminado do Evento PulaPula!'
+  BC:
+    Aberto:
+    - ''
+    - ''
+    - '&d[PulaPula] Evento Sendo Iniciado!'
+    - '&d[PulaPula] Para entrar utilize /pulapula entrar!'
+    - '&d[PulaPula] No momento há {qplayers} players no evento!'
+    - '&d[PulaPula] O prêmio para este evento é R${premio}!'
+    - '&d[PulaPula] Evento sendo fechado em {tempo} segundos!'
+    - '&d[PulaPula] Evento sendo fechado em {chamadas} chamadas!'
+    - '&d[PulaPula] O PvP neste evento é OFF!'
+    - '&d[PulaPula] Nao há risco de morte!'
+    - ''
+    - ''
+    Iniciou:
+    - ''
+    - ''
+    - '&d[PulaPula] Evento Iniciado!'
+    - '&d[PulaPula] Boa sorte aos {qplayers} participantes!'
+    - '&d[PulaPula] O prêmio deste evento é R${premio}!'
+    - ''
+    - ''
+    Fechado:
+    - ''
+    - ''
+    - '&d[PulaPula] Evento Fechado!'
+    - '&d[PulaPula] {qplayers} players foram teleportados até a saida!'
+    - '&d[PulaPula] O prêmio deste evento era de R${premio}!'
+    - '&d[PulaPula] Motivo: {motivo}!'
+    - '&d[PulaPula] Outra hora ocorrerá o evento!'
+    - ''
+    - ''
+    Vencedor:
+    - ''
+    - ''
+    - '&d[PulaPula] Evento Fechado!'
+    - '&d[PulaPula] Parabéns ao vencedor {vencedor}!'
+    - '&d[PulaPula] O prêmio entregue a ele foi de R${premio}!'
+    - '&d[PulaPula] Todos foram teleportados para a saida!'
+    - ''
+    - ''
+    Sem_Vencedor:
+    - ''
+    - ''
+    - '&d[PulaPula] Evento Fechado!'
+    - '&d[PulaPula] Nao houve vencedores!'
+    - '&d[PulaPula] Outra hora ocorrerá o evento!'
+    - ''
+    - ''
+  Erro:
+    Sem_Permissao: '&cVocê nao tem permissao para utilizar este comando!'
+    Sem_Permissao_Placa: '&cVocê nao tem permissao para criar esta placa!'
+    Ja_Iniciou: '&cO evento já está em andamento!'
+    Locais: '&cParece que há algo de errado no arquivos locais.yml, sendo assim, o evento nao pôde ser iniciado!'
+    Nao_Esta_Aberto: '&cO evento nao se encontra aberto!'
+    Esta_Aberto_Ocorrendo: '&cLocal nao pôde ser setado por que o evento já está em andamento!'
+    Ja_Esta: '&cVocê ja se encontra no evento!'
+    Nao_Esta_No_Evento: '&cVocê nao se encontra no evento!'
+    Contem_Itens: '&cPara participar do evento é necessário estar com o inventário vazio!'
+    PvP_Desativado: '&cO PvP está desativado neste evento!'
+    No_Teleport: '&cVocê nao pode se teletransportar durante o evento!'
+    Comando_Bloqueado: '&cO comando {comando} esta bloqueado durante o evento!'
+    Proibido_Construir: '&cVocê nao pode construir durante o evento!'
+  Sucesso:
+    Setou_Spawn: '&eSpawn setado em &7World:{world}, X:{x}, Y:{y}, Z:{z}&e!'
+    Setou_Saida: '&eSaida setada em &7World:{world}, X:{x}, Y:{y}, Z:{z}&e!'
+    Setou_Lobby: '&eLobby setado em &7World:{world}, X:{x}, Y:{y}, Z:{z}&e!'
+    Fly_Desativado: '&aSeu fly foi desativado para este evento!'
+    GM_Changed_0: '&aSeu Gamemode foi definido para survival para este evento!'
+    Entrou: '&bVocê entrou no Evento PulaPula!'
+    Saiu_Evento: '&eVocê saiu do Evento PulaPula!'
+    
+Motivo:
+  Poucos_Players: 'Havia poucos players no evento!'
+  Staff_Cancelou: 'Um staff cancelou o evento!'

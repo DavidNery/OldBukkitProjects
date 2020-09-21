@@ -1,0 +1,38 @@
+Sem_Permissao: "&cVoce nao tem permissao!"
+Argumentos: "&cUtilize &7/caixa <give/dar> <tipo-de-caixa> [player]"
+Argumentos_Dar: "&cUtilize &7/caixa dar <tipo-de-caixa> <player>"
+Argumentos_Give: "&cUtilize &7/caixa give <tipo-de-caixa>"
+Player_Offline: "&cEste player nao se encontra online!"
+Tipo_Nao_Existe: "&cEste tipo de caixa nao existe!"
+Inv_Cheio: "&cInventario cheio!"
+Cancelou_Caixa: "&cVoce fechou o inventario e a caixa foi cancelada!"
+Deu_Caixa: "&aVoce deu uma caixa para @player!"
+Ganhou_Caixa: "&bVoce ganhou uma caixa do staff @staff!"
+Se_Deu_Caixa: "&bVoce recebeu sua caixa!"
+Roletou: "&5[CAIXA] Player @player roletou uma caixa do tipo @caixa e ganhou um premio!"
+Inv_Nome: "&b&lCaixa da Sorte"
+Completar_ID: 102
+Caixa:
+  armadura:
+    ID: 311
+    Nome: "&cGanhe alguma parte de uma armadura!"
+    Lore:
+    - "&cClique e ganhe alguma coisa!"
+    - "&bGanhe uma parte da sua armadura!"
+    Items:
+    - "310%1%protecao:1-inquebravel:1%&2&lElmo Fodinha%&eMais seguranca!_&9Selo de qualidade Dery!"
+    - "311%1%protecao:1-inquebravel:1%&2&lPeitoral Fodinha%&eMais seguranca!_&9Selo de qualidade Dery!"
+    - "312%1%protecao:1-inquebravel:1%&2&lCalca Fodinha%&eMais seguranca!_&9Selo de qualidade Dery!"
+    - "313%1%protecao:1-inquebravel:1%&2&lBota Fodinha%&eMais seguranca!_&9Selo de qualidade Dery!"
+  espada:
+    ID: 276
+    Nome: "&cGanhe alguma espada!"
+    Lore:
+    - "&cClique e ganhe alguma coisa!"
+    - "&bGanhe uma espada!"
+    Items:
+    - "276%1%afiada:1%&6&lEspada Mother Fucker%&eMate com facilidade!_&aSelo de qualidade Dery!"
+    - "276%1%afiada:2%&6&lEspada Mother Fucker%&eMate com facilidade!_&aSelo de qualidade Dery!"
+    - "276%1%afiada:3%&6&lEspada Mother Fucker%&eMate com facilidade!_&aSelo de qualidade Dery!"
+    - "276%1%afiada:4%&6&lEspada Mother Fucker%&eMate com facilidade!_&aSelo de qualidade Dery!"
+    - "276%1%afiada:5%&6&lEspada Mother Fucker%&eMate com facilidade!_&aSelo de qualidade Dery!"

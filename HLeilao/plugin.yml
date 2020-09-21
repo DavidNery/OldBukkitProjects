@@ -1,0 +1,7 @@
+name: HLeilao
+version: 1.0
+main: me.zfork.hleilao.HLeilao
+author: zfork
+
+commands:
+    leilao:

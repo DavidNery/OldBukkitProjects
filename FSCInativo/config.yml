@@ -1,0 +1,25 @@
+Config:
+  #Tempo em segundos para verificar players inativos (segundos):
+  Tempo_Verificar: 60
+  #Quantidade de dias para um player ser considerado como inativo:
+  Dias_Inativos_Player: 10
+  #Quantidade de players que será mostrado no tooltip:
+  Players_ToolTip: 10
+  #Formato do player no tooltip:
+  Format_Player_ToolTip: "{clan} &f- &a{player} &f- &aInativo por &a&l{dias} &adias"
+  #Estilo geral do tooltip de players:
+  ToolTip_Players_Style:
+  - "&aPlayers removidos de seus clans:"
+  - "{players}"
+  #Mensagem que será enviada aos players:
+  Mensagem_Players: "&a&lFSCInativo &fForam removidos &a&l{qnt} &fplayers de seus clans por inatividade!"
+  #Quantidade de clans que será mostrado no tooltip:
+  Clans_ToolTip: 10
+  #Formato do clan no tooltip:
+  Format_Clan_ToolTip: "{clan}"
+  #Estilo geral do tooltip de clans:
+  ToolTip_Clans_Style:
+  - "&aClans apagados devido a inatividade de seus líderes:"
+  - "{clans}"
+  #Mensagem que será enviada aos players:
+  Mensagem_Clans: "&a&lFSCInativo &fForam removidos &a&l{qnt} &fclans devido a inatividade de seus líderes!"

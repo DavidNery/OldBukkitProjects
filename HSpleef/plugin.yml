@@ -1,0 +1,7 @@
+name: HSpleef
+version: 1.0
+main: me.dery.hspleef.HSpleef
+author: Dery
+
+commands:
+    spleef:

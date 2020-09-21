@@ -1,0 +1,7 @@
+name: MobSpawn
+version: 0.1
+author: zFork
+main: me.zfork.craftzone.mobspawn.MobSpawn
+
+commands:
+    setmob:

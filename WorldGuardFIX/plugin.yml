@@ -1,0 +1,5 @@
+name: WorldGuardFIX
+depend: [WorldGuard]
+version: 0.1b
+main: me.dery.worldguardfix.WorldGuardFIX
+author: Dery

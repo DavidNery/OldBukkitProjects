@@ -1,0 +1,19 @@
+########################################
+####            By: Dery            ####
+####          Version: 1.0          ####
+########################################
+
+#Mundos que vão sempre ficar de dia:
+Worlds_Day:
+- "world"
+
+#Mundos que vão sempre ficar de noite:
+Worlds_Night:
+- "night"
+
+#Desativar chuva:
+Disable_Rain: true
+
+#Mundos que a chuva ficará desativada caso a opção acima seja true:
+Worlds_Rain:
+- "world"

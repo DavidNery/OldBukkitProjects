@@ -1,0 +1,253 @@
+Config:
+  Key: "COLOQUESUAKEYAQUI"
+  Comandos_Kit:
+  - /kit
+  - /kits
+  MySQL:
+    Ativar: false
+    Usuario: "root"
+    Senha: "123321"
+    Host: "localhost"
+    Database: "fkitspro"
+  Ativar_Inv: true
+  Ativar_Logs: true
+  Inventarios:
+    main:
+      Tamanho: 27
+      Nome: "&lKITS - MENU"
+      Main: true
+      Completar_Inventario: true
+      Item_Completar_Inventario: "item:160:7"
+      Custom_Items:
+        3:
+          Item: "item:54 nome:&cKits_VIPS"
+          Esquerdo:
+          - "checar permissao fkits.vip->abrir inv vips-noperm"
+          - "abrir inv vips"
+          Direito:
+          - "checar permissao fkits.vip->abrir inv vips-noperm"
+          - "abrir inv vips"
+        5:
+          Item: "item:54 nome:&cKits_BETA"
+          Esquerdo:
+          - "checar permissao fkits.noob->abrir inv noob-noperm"
+          - "abrir inv noob"
+          Direito:
+          - "checar permissao fkits.noob->abrir inv noob-noperm"
+          - "abrir inv noob"
+        7:
+          Item: "item:54 nome:&cKits_STAFF"
+          Esquerdo:
+          - "checar permissao fkits.pvp->abrir inv pvp-noperm"
+          - "abrir inv pvp"
+          Direito:
+          - "checar permissao fkits.pvp->abrir inv pvp-noperm"
+          - "abrir inv pvp"
+        19:
+          Item: "item:166 nome:&cVoltar"
+          Esquerdo:
+          - "abrir inv null"
+          Direito:
+          - "abrir inv null"
+        23:
+          Item: "item:130 nome:&7Kits_PAGOS"
+          Esquerdo:
+          - "player executar cmd shop"
+          Direito:
+          - "player executar cmd shop"
+        27:
+          Item: "item:166 nome:&cVoltar"
+          Esquerdo:
+          - "abrir inv null"
+          Direito:
+          - "abrir inv null"
+    vips:
+      Tamanho: 27
+      Nome: "&aKit: VIP"
+      Completar_Inventario: true
+      Item_Completar_Inventario: "item:160:7"
+      Custom_Items:
+        3:
+          Item: "item:130 nome:&c&lKIT_&fVIP lore:_@&aBotao_esquerdo_para_abrir_o_&a&lkit@&aClique_com_o_botao_&a&ldireito_&apara_ver_os_tens_do_kit@_"
+          Esquerdo:
+          - "checar permissao fkits.vip->enviar mensagem &6&lFKitsPRO &f&l➥ &cVocê não pode pegar este kit!"
+          - "dar kit vip"
+        19:
+          Item: "item:166 nome:&cVoltar"
+          Esquerdo:
+          - "abrir inv null"
+          Direito:
+          - "abrir inv null"
+        27:
+          Item: "item:166 nome:&cVoltar"
+          Esquerdo:
+          - "abrir inv null"
+          Direito:
+          - "abrir inv null"
+    vips-noperm:
+      Tamanho: 27
+      Nome: "&cKit: VIP"
+      Completar_Inventario: true
+      Item_Completar_Inventario: "item:160:7"
+      Custom_Items:
+        3:
+          Item: "item:130 nome:&c&lKIT_&fVIP lore:_@&cVocê_não_tem_permissão_para_pegar_este_&c&lkit@&aClique_com_o_botao_&a&ldireito_&apara_ver_os_tens_do_kit@_"
+          Esquerdo:
+          - "console executar cmd say_{player}_Burro"
+          - "enviar mensagem &6&lFKitsPRO &f&l➥ &cVocê não tem permissão para pegar este kit!"
+        19:
+          Item: "item:166 nome:&cVoltar"
+          Esquerdo:
+          - "abrir inv null"
+          Direito:
+          - "abrir inv null"
+        27:
+          Item: "item:166 nome:&cVoltar"
+          Esquerdo:
+          - "abrir inv null"
+          Direito:
+          - "abrir inv null"
+    noob:
+      Tamanho: 27
+      Nome: "&aKit: Noob"
+      Completar_Inventario: true
+      Item_Completar_Inventario: "item:160:7"
+      Custom_Items:
+        3:
+          Item: "item:130 nome:&c&lKIT_&fNoob lore:_@&aBotao_esquerdo_para_abrir_o_&a&lkit@&aClique_com_o_botao_&a&ldireito_&apara_ver_os_tens_do_kit@_"
+          Esquerdo:
+          - "checar permissao fkits.noob->enviar mensagem &6&lFKitsPRO &f&l➥ &cVocê não pode pegar este kit!"
+          - "dar kit noob"
+        19:
+          Item: "item:166 nome:&cVoltar"
+          Esquerdo:
+          - "abrir inv null"
+          Direito:
+          - "abrir inv null"
+        27:
+          Item: "item:166 nome:&cVoltar"
+          Esquerdo:
+          - "abrir inv null"
+          Direito:
+          - "abrir inv null"
+    noob-noperm:
+      Tamanho: 27
+      Nome: "&cKit: Noob"
+      Completar_Inventario: true
+      Item_Completar_Inventario: "item:160:7"
+      Custom_Items:
+        3:
+          Item: "item:130 nome:&c&lKIT_&fNoob lore:_@&cVocê_não_tem_permissão_para_pegar_este_&c&lkit@&aClique_com_o_botao_&a&ldireito_&apara_ver_os_tens_do_kit@_"
+          Esquerdo:
+          - "console executar cmd say_{player}_Burro"
+          - "enviar mensagem &6&lFKitsPRO &f&l➥ &cVocê não tem permissão para pegar este kit!"
+        19:
+          Item: "item:166 nome:&cVoltar"
+          Esquerdo:
+          - "abrir inv null"
+          Direito:
+          - "abrir inv null"
+        27:
+          Item: "item:166 nome:&cVoltar"
+          Esquerdo:
+          - "abrir inv null"
+          Direito:
+          - "abrir inv null"
+    pvp:
+      Tamanho: 27
+      Nome: "&aKit: PvP"
+      Completar_Inventario: true
+      Item_Completar_Inventario: "item:160:7"
+      Custom_Items:
+        3:
+          Item: "item:130 nome:&c&lKIT_&fPvP lore:_@&aBotao_esquerdo_para_abrir_o_&a&lkit@&aClique_com_o_botao_&a&ldireito_&apara_ver_os_tens_do_kit@_"
+          Esquerdo:
+          - "checar permissao fkits.pvp->enviar mensagem &6&lFKitsPRO &f&l➥ &cVocê não pode pegar este kit!"
+          - "dar kit pvp"
+        19:
+          Item: "item:166 nome:&cVoltar"
+          Esquerdo:
+          - "abrir inv null"
+          Direito:
+          - "abrir inv null"
+        27:
+          Item: "item:166 nome:&cVoltar"
+          Esquerdo:
+          - "abrir inv null"
+          Direito:
+          - "abrir inv null"
+    pvp-noperm:
+      Tamanho: 27
+      Nome: "&cKit: PvP"
+      Completar_Inventario: true
+      Item_Completar_Inventario: "item:160:7"
+      Custom_Items:
+        3:
+          Item: "item:130 nome:&c&lKIT_&fPvP lore:_@&cVocê_não_tem_permissão_para_pegar_este_&c&lkit@&aClique_com_o_botao_&a&ldireito_&apara_ver_os_tens_do_kit@_"
+          Esquerdo:
+          - "console executar cmd say_{player}_Burro"
+          - "enviar mensagem &6&lFKitsPRO &f&l➥ &cVocê não tem permissão para pegar este kit!"
+        19:
+          Item: "item:166 nome:&cVoltar"
+          Esquerdo:
+          - "abrir inv null"
+          Direito:
+          - "abrir inv null"
+        27:
+          Item: "item:166 nome:&cVoltar"
+          Esquerdo:
+          - "abrir inv null"
+          Direito:
+          - "abrir inv null"
+  Kits:
+    noob:
+      Items:
+      - "item:272"
+      - "item:273"
+      - "item:274"
+      - "item:275"
+      - "item:364 qnt:16"
+      Tempo: 0
+    pvp:
+      Items:
+      - "item:267"
+      - "item:261"
+      - "item:322 qnt:5"
+      - "item:302"
+      - "item:303"
+      - "item:304"
+      - "item:305"
+      - "item:262 qnt:16"
+      Tempo: 60
+    vip:
+      Items:
+      - "item:276 enchants:afiada:4,aspecto_flamejante:1,inquebravel:1"
+      - "item:261 enchants:forca:3,inquebravel:1,infinidade:1"
+      - "item:322:1 qnt:16"
+      - "item:310 enchants:protecao:3,inquebravel:2"
+      - "item:311 enchants:protecao:3,inquebravel:2"
+      - "item:312 enchants:protecao:3,inquebravel:2"
+      - "item:313 enchants:protecao:3,inquebravel:2"
+      - "item:262"
+      Tempo: 7200
+
+Mensagem:
+  Erro:
+    Sem_Permissao: "&6&lFKitsPRO &f&l➥ &cVocê não tem permissão para pegar este kit!"
+    Aguarde: "&6&lFKitsPRO &f&l➥ &cAguarde mais &7{tempo} &cpara pegar este kit novamente!"
+    Aguarde_Pegar: "&6&lFKitsPRO &f&l➥ &cAguarde um instante, este kit estará disponível brevemente!"
+    Sem_Dinheiro: "&6&lFKitsPRO &f&l➥ &cVocê não tem dinheiro suficiente para pegar este kit!"
+    Sem_Coins: "&6&lFKitsPRO &f&l➥ &cVocê não tem coins suficientes para pegar este kit!"
+    So_Pode_Uma_Vez: "&6&lFKitsPRO &f&l➥ &cVocê só pode pegar este kit &c&luma &cvez!"
+    Sem_Kits: "&6&lFKitsPRO &f&l➥ &cNão existem kits disponíveis para você!"
+    Kit_Nao_Existe: "&6&lFKitsPRO &f&l➥ &cEste kit não existe!"
+    Uso_Correto: "&6&lFKitsPRO &f&l➥ &cUtilize &7/kit <kit> <player>&c!"
+    Nao_Foi_Possivel: "&6&lFKitsPRO &f&l➥ &cNão foi possível entregar seu kit!"
+  Sucesso:
+    Kits_Aberto: "&6&lFKitsPRO &f&l➥ &aMenu de kits aberto!"
+    Pegou_Kit: "&6&lFKitsPRO &f&l➥ &aVocê pegou este kit com sucesso!"
+    Ganhou_Kit: "&6&lFKitsPRO &f&l➥ &bO staff &f{staff} &blhe deu o kit &3{kit}&b!"
+    Deu_Kit: "&6&lFKitsPRO &f&l➥ &aVocê deu o kit &2{kit} &aao player &2{player}&a!"
+    Kits_Disponiveis: "&6&lFKitsPRO &f&l➥ &bKits que você tem acesso: &f{kits}&b."
+    Pagou_Item: "&6&lFKitsPRO &f&l➥ &bVocê pagou &f&lR${preco} &bpara pegar este kit!"
+    Pagou_Kit: "&6&lFKitsPRO &f&l➥ &bVocê pagou &f&lR${preco} &bpara pegar o kit &f&l{kit}&b!"

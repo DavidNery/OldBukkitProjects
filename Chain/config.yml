@@ -1,0 +1,147 @@
+Config:
+  Cmd:
+    Entrar: "entrar"
+    Sair: "sair"
+    SetLoc: "setloc"
+    SetItens: "setitens"
+    Ban: "ban"
+    UnBan: "unban"
+    Camarote: "camarote"
+  Permissoes:
+    SetLoc: "craftzone.chain.setloc"
+    SetItens: "craftzone.chain.setitens"
+    Ban: "craftzone.chain.ban"
+    UnBan: "craftzone.chain.unban"
+    Camarote: "craftzone.chain.camarote"
+  Avisar_Entrou: true
+  Avisar_Saiu: true
+  Avisar_Morreu: true
+  Avisar_Kick: true
+  Avisar_Quit: true
+  Dar_Tag_Top_Killer: true
+  Avisar_Novo_Top_Killer: true
+  TAG_Top_Killer: "&c&l[CTopKiller]"
+  Itens:
+    Inv:
+    - "item:267"
+    - "item:322:1 qnt:5"
+    - "item:261 enchants:infinidade:1"
+    - "item:364 qnt:64"
+    - "item:262"
+    Armor:
+    - "item:302"
+    - "item:303"
+    - "item:304"
+    - "item:305"
+  Item_WhiteList:
+  - "144"
+  ScoreBoard:
+    Title: "&6&l-=== &f&lCHAIN &6&l===-"
+    Linhas:
+    - "&f"
+    - "&fPlayers na chain: &c&l{playercount}"
+    - "&fSeus stats:"
+    - "&7  |-&fNick: &c&l{player}"
+    - "&7  |-&fKills: &c&l{kills}"
+    - "&7  |-&fDeaths: &c&l{deaths}"
+    - "&7  |-&fKD: &c&l{kd}"
+    - "&f"
+  Comandos_Liberados:
+  - "/chain"
+  - "/tell"
+  - "/."
+  - "/g"
+  - "/l"
+  - "/w"
+  - "anuncio"
+  Ninguem: "ninguém"
+  Killing_Spree_Tempo_Entre_Kills: 5
+  Killing_Spree:
+    2:
+      Mensagem: "&3&lCHAIN &7Player &b{player} &7fez double-kill!"
+    3:
+      Mensagem: "&3&lCHAIN &7Player &b{player} &7fez triple-kill!"
+    4:
+      Mensagem: "&3&lCHAIN &7Player &b{player} &7fez quadra-kill!"
+    5:
+      Mensagem: "&3&lCHAIN &7Player &b{player} &7fez penta-kill!"
+  Killing_Spree_Dominar: 10
+  Killing_Spree_Mensagem:
+  - ""
+  - "&3&lCHAIN &7Player &b{player} &7está dominando a arena chain!"
+  - "&3&lCHAIN &7Alguém se habilita a derrotar esta fera?"
+  - "&3&lCHAIN &7Utilize &b&l/chain entrar &7e tente mata-lo!"
+  - ""
+  Killing_Spree_Kills:
+    3:
+      Mensagem:
+      - "&6&lCHAIN &7Você matou o player &e{vitima} &7na chain!"
+      - "&6&lCHAIN &cEle tinha um KillingSpree de &73 &ckills seguidos!"
+      - "&6&lCHAIN &eDevido a isso, você ganhou 3.000 coins!"
+      Global:
+      - "&6&lCHAIN &e{player} &7parou a sequência de &f&l3 &ekills do player &e{vitima}!"
+      Money: 3000
+    5:
+      Mensagem:
+      - "&6&lCHAIN &7Você matou o player &e{vitima} &7na chain!"
+      - "&6&lCHAIN &cEle tinha um KillingSpree de &75 &ckills seguidos!"
+      - "&6&lCHAIN &eDevido a isso, você ganhou 5.000 coins!"
+      Global:
+      - "&6&lCHAIN &e{player} &7parou a sequência de &f&l5 &ekills do player &e{vitima}!"
+      Money: 5000
+    10:
+      Mensagem:
+      - "&6&lCHAIN &7Você matou o player &e{vitima} &7na chain!"
+      - "&6&lCHAIN &cEle tinha um KillingSpree de &710 &ckills seguidos!"
+      - "&6&lCHAIN &eDevido a isso, você ganhou 100.000 coins!"
+      Global:
+      - "&6&lCHAIN &e{player} &7parou a sequência de &f&l10 &ekills do player &e{vitima}!"
+      Money: 100000
+
+Mensagem:
+  Erro:
+    Sem_Permissao: "&c&lCHAIN &7Você não tem permissão para utilizar este comando!"
+    Uso_Correto: "&c&lCHAIN &7Utilize &c/chain <entrar | sair | setloc <spawn | saida> | setitens | ban <player> <motivo> | unban <player>>&7!"
+    Inv_Vazio: "&c&lCHAIN &7Você deve estar com o inventário vazio para entrar na chain!"
+    Ja_Esta: "&c&lCHAIN &7Você já se encontra na arena chain!"
+    Nao_Esta: "&c&lCHAIN &7você não se encontra na arena chain!"
+    SetLoc: "&c&lCHAIN &7Utilize &c/chain setloc <spawn | saida>&7!"
+    SetLoc1: "&c&lCHAIN &7Utilize apenas &csaida &7ou &cspawn&7!"
+    Ban: "&c&lCHAIN &7Utilize &c/chain ban <player> <motivo>&7!"
+    UnBan: "&c&lCHAIN &7Utilize &c/chain unban <player>&7!"
+    Player_Ja_Banido: "&c&lCHAIN &7Este player já está banido!"
+    Player_Nao_Banido: "&c&lCHAIN &7Este player não está banido!"
+    Comando_Bloqueado: "&c&lCHAIN &7Você não pode utilizar este comando enquanto estiver na chain!"
+    Nao_Baniu: "&c&lCHAIN &7Nao foi possivel banir este player :<!"
+    Nao_Desbaniu: "&c&lCHAIN &7Nao foi possivel desbanir este player :<!"
+    Esta_Banido: "&c&lCHAIN &7Você está banido da chain por &c&l{motivo}&7!"
+    Nao_Foi_Possivel_Entrar: "&c&lCHAIN &7Não foi possível entrar na chain!"
+  Sucesso:
+    Entrou:
+    - ""
+    - "&a&lCHAIN &7Você entrou na arena chain!"
+    - "&a&lCHAIN &7Boa sorte!"
+    - ""
+    Player_Entrou: "&b&lCHAIN &7Player &b{player} &7entrou na arena chain!"
+    Saiu: "&a&lCHAIN &7Você saiu da arena chain!"
+    Player_Saiu: "&b&lCHAIN &7Player &b{player} &7saiu da arena chain!"
+    Setou_Loc: "&b&lCHAIN &7Localização &b{loc} &7setada com sucesso!"
+    Setou_Itens: "&b&lCHAIN &7Você setou os itens da chain!"
+    Player_Moreu: "&b&lCHAIN &7Player &b{player} &7morreu para &b{killer}&7!"
+    Player_Kicked: "&b&lCHAIN &7Player &b{player} &7foi kikado do servidor e removido da chain!"
+    Player_Quit: "&b&lCHAIN &7Player &b{player} &7deslogou e foi removido da chain!"
+    Saiu_Teleporte: "&a&lCHAIN &7Você teleportou para uma localização fora da chain! Seus itens foram removidos."
+    Baniu_Player: "&a&lCHAIN &7Você baniu o(a) player &a&l{player} &7da chain por &a&l{motivo}&7!"
+    Desbaniu_Player: "&a&lCHAIN &7Você desbaniu o(a) player &a&l{player} &7da chain!"
+    Staff_Baniu_Player: "&d&lCHAIN &7O staff &d&l{staff} &7baniu o player &d&l{player} &7da chain por &d&l{motivo}&7!"
+    Novo_Top_Killer:
+    - ""
+    - "&6&lCHAIN &7Temos um novo top killer da chain!"
+    - "&6&lCHAIN &7O player &c&l{player} &7é o novo top killer!"
+    - "&6&lCHAIN &7Ele matou &a&l{kills} &7players desde que o servidor iniciou!"
+    - ""
+    
+Locations:
+  Spawn: "world 0 0 0 0 0"
+  Saida: "world 0 0 0 0 0"
+  Camarote: "world 0 0 0 0 0"

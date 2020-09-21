@@ -1,0 +1,99 @@
+Config:
+  Vencedor: "MrDery"
+  TAG: "&6&l[Spleef]"
+  Min_Players: 2
+  Premio: 10000
+  Anuncios: 5
+  Tempo_Anuncios: 30
+  Comandos_Liberados:
+  - g
+  - l
+  - money
+  - clan
+  - spleef
+  - kit
+  - .
+
+Mensagem:
+  Comandos:
+  - "&6Comandos do Evento Spleef:"
+  - "&7/spleef participar &3&l- &7Participar do evento"
+  - "&7/spleef sair &3&l- &7Saida do evento"
+  - "&7/spleef info &3&l- &7Info do evento, participantes, status"
+  - "&7/spleef iniciar &3&l- &7Iniciar evento"
+  - "&7/spleef cancelar &3&l- &7Cancelar evento"
+  - "&7/spleef setsaida &3&l- &7Setar saida do evento"
+  - "&7/spleef setlobby &3&l- &7Setar o lobby de espera"
+  - "&7/spleef setentrada &3&l- &7Setar a entrada"
+  - "&7/spleef setar &3&l- &7Ganha os item para setar onde vai setar a neve"
+  Iniciando:
+  - ""
+  - ""
+  - "&d[SPLEEF] &fEvento iniciando!"
+  - "&d[SPLEEF] &fPara entrar no evento utilize /spleef participar!"
+  - "&d[SPLEEF] &fNo momento existem @players players no evento!"
+  - "&d[SPLEEF] &fO premio deste evento e R$@premio!"
+  - "&d[SPLEEF] &fChamadas acabando em @tempo segundos!"
+  - ""
+  - ""
+  Iniciou:
+  - ""
+  - ""
+  - "&d[SPLEEF] &fEvento iniciado!"
+  - "&d[SPLEEF] &fBoa sorte aos @players players do evento!"
+  - ""
+  - ""
+  Cancelado:
+  - ""
+  - ""
+  - "&d[SPLEEF] &fEvento cancelado!"
+  - "&d[SPLEEF] &fMotivo: @motivo"
+  - ""
+  - ""
+  Vencedor:
+  - ""
+  - ""
+  - "&d[SPLEEF] &fEvento finalizado!"
+  - "&d[SPLEEF] &fParabens ao vencedor @vencedor!"
+  - "&d[SPLEEF] &fO premio entregue a ele foi de R$@premio!"
+  - ""
+  - ""
+  Info:
+  - "&6Info do Evento Spleef:"
+  - "&7Players no evento: &3&l@players"
+  - "&7Status do evento: &3&l@status"
+  Player_Eliminado: "&6[Spleef] &3@player foi eliminado do evento!"
+  Erro:
+    Sem_Permissao: "&6[Spleef] &cVoce nao tem permissao para utilizar este comando!"
+    Comando_Desconhecido: "&6[Spleef] &cEste comando nao existe bobinho :P"
+    Em_Andamento: "&6[Spleef] &cO Evento ja esta aberto!"
+    Nao_Esta_Em_Andamento: "&6[Spleef] &cO evento nao esta aberto!"
+    Inventario_Cheio: "&6[Spleef] &cSeu inventario esta cheio!"
+    Ja_Esta: "&6[Spleef] &cVoce ja esta no evento spleef!"
+    Nao_Esta: "&6[Spleef] &cVoce nao esta no evento spleef!"
+    Esta_Morto: "&6[Spleef] &cVoce esta morto!"
+    Inventario: "&6[Spleef] &cLimpe seu inventario para poder participar do evento!"
+    Nao_Esta_Aberto: "&6[Spleef] &cO evento nao esta aberto!"
+  Sucesso:
+    Iniciou: "&6[Spleef] &bVoce iniciou o evento spleef!"
+    Parou: "&6[Spleef] &bVoce parou o evento spleef!"
+    Entrou: "&6[Spleef] &aVoce entrou no evento Spleef. Boa sorte!"
+    Saiu: "&6[Spleef] &aVoce saiu do evento Spleef!"
+    Setou_Spawn: "&6[Spleef] &aSpawn setado com sucesso!"
+    Setou_Saida: "&6[Spleef] &aSaida setada com sucesso!"
+    Setou_Lobby: "&6[Spleef] &aLobby setado com sucesso!"
+    Recebeu_Item: "&6[Spleef] &eVoce recebeu o item para setar o chao do spleef!"
+    Pos1_Setada: "&6[Spleef] &aPosicao 1 do chao setada!"
+    Pos2_Setada: "&6[Spleef] &aPosicao 2 do chao setada!"
+
+Motivos:
+  Poucos_Players: "Haviam poucos players no evento!"
+  Staff_Cancelou: "Um staff cancelou o evento!"
+  Ninguem_Ganhou: "Nao houve vencedores!"
+
+Locais:
+  Spawn: "world 0 4 0 0 0"
+  Lobby: "world 0 4 0 0 0"
+  Exit: "world 0 4 0 0 0"
+  Loc1: "world 0 4 0"
+  Loc2: "world 0 4 0"

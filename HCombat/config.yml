@@ -1,0 +1,17 @@
+Covarde_Voltou: "&b[!] &7O(a) covarde &f@player&7 voltou apos deslogar em PvP!"
+Deslogou_Em_PvP_Money: "&3[!] &7O(a) player &f@player &7deslogou em PvP, mas tinha dinheiro suficiente para pagar a multa e nao levou kill!"
+Deslogou_Em_PvP_Kill: "&3[!] &7O(a) player &f@player &7deslogou em PvP e como nao tinha dinheiro suficiente para pagar a multa, levou kill!"
+Entrou_PvP: "&a[!] &7Voce entrou em PvP com o(a) player &f@player&7, nao deslogue!"
+Saiu_PvP: "&a[!] &7Voce saiu do PvP, agora esta liberado!"
+Nao_Pode_Comandos: "&c[!] &7Voce nao pode usar o comando &f@comando &7enquanto estiver em PvP!"
+Teleporte: "&c[!] &7Voce nao pode se teletransportar durante um combate!"
+Comandos_Liberados:
+- g
+- money
+- tell
+- .
+- clan
+- r
+- mp
+Tempo_Sair: 30
+Valor_A_Retirar: 1000

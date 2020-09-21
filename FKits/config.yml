@@ -1,0 +1,50 @@
+Config:
+  GUI:
+    Linhas: 1
+  Kits:
+    Iniciante:
+      Item_GUI: "275"
+      Local_GUI: 2
+      Delay: 30
+      Items:
+      - "item:272 qnt:1"
+      - "item:273 qnt:1"
+      - "item:274 qnt:1"
+      - "item:275 qnt:1"
+      - "item:17 qnt:16"
+      - "item:297 qnt:16"
+    PvP:
+      Item_GUI: "267"
+      Local_GUI: 4
+      Delay: 60
+      Items:
+      - "item:267 qnt:1 enchants:afiada:1,inquebravel:1 nome:&6_Kit_PvP lore:&5Pegue_Voce_Tambem!@&2/kit"
+      - "item:302 qnt:1 enchants:protecao:1,inquebravel:1"
+      - "item:303 qnt:1 enchants:protecao:1,inquebravel:1"
+      - "item:304 qnt:1 enchants:protecao:1,inquebravel:1"
+      - "item:305 qnt:1 enchants:protecao:1,inquebravel:1"
+      - "item:322 qnt:16"
+      - "pocao:forca qnt:2 duracao:10 amplificador:2 splash:false"
+      - "pocao:velocidade qnt:2 duracao:10 amplificador:2 splash:false"
+    VIP:
+      Item_GUI: "276"
+      Local_GUI: 6
+      Delay: 60
+      Items:
+      - "item:276 1 enchants:afiada:5,inquebravel:3 nome:&6Kit_VIP lore:&5Pegue_Voce_Tambem!@&2/kit"
+      - "item:310 1 enchants:protecao:4,inquebravel:3 nome:&6Kit_VIP lore:&5Pegue_Voce_Tambem!@&2/kit"
+      - "item:311 1 enchants:protecao:4,inquebravel:3 nome:&6Kit_VIP lore:&5Pegue_Voce_Tambem!@&2/kit"
+      - "item:312 1 enchants:protecao:4,inquebravel:3 nome:&6Kit_VIP lore:&5Pegue_Voce_Tambem!@&2/kit"
+      - "item:313 1 enchants:protecao:4,inquebravel:3 nome:&6Kit_VIP lore:&5Pegue_Voce_Tambem!@&2/kit"
+      - "item:322:1 qnt:16"
+      - "pocao:forca qnt:2 duracao:10 amplificador:2 splash:true"
+      - "pocao:velocidade qnt:2 duracao:10 amplificador:2 splash:true"
+      
+Mensagem:
+  Sucesso:
+    Kits_Aberto: "&6&l[FKits] &bMenu de kits aberto!"
+    Pegou_Kit: "&6&l[FKits] &bVoce pegou o kit {kit}!"
+  Erro:
+    Pagina_Inexistente: "&6&l[FKits] &cA proxima pagina nao existe!"
+    Aguarde: "&6&l[FKits] &cAguarde &7{restante} &cpara pegar este kit novamente!"
+    Sem_Permissao: "&6&l[FKits] &cVoce nao tem permissao para pegar este kit!"

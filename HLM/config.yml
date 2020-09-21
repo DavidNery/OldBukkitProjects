@@ -1,0 +1,8 @@
+Sem_Permissao: "&cVoce nao tem permissao!"
+Uso_Correto: "&cUtilize &7/setmorte <loc1, loc2, loc3>&c!"
+Loc_Setada: "&aLoc @loc setada!"
+LoginLoc_Setado: "&aLocal do login setado!"
+Loc1: "world 0 0 0 0 0"
+Loc2: "world 0 0 0 0 0"
+Loc3: "world 0 0 0 0 0"
+Login: "world 0 0 0 0 0"

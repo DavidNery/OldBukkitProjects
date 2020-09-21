@@ -1,0 +1,51 @@
+#Permissoes:
+#stylessentials.<comando> || Permite ao player utilizar tal comando
+#stylessentials.<comando>.outros || Permite ao player utilizar tal comando em outro player
+Sem_Permissao: "&6[Stylessentials] &cVoce nao tem permissao para utilizar o comando &7{cmd}&c!"
+Player_Nao_Encontrado: "&6[Stylessentials] &cPlayer &7{player} &cnao encontrado!"
+Nao_E_Numero: "&6[Stylessentials] &cVoce nao informou um numero!"
+Clear:
+  Limpou: "&6[Stylessentials] &bVoce limpou seu inventario!"
+  Limpou_Outro: "&6[Stylessentials] &aVoce limpou o inventario do player &f{player}&a!"
+Effect:
+  Removeu_Outro: "&6[Stylessentials] &aVoce removeu os efeitos de pocao do player &f{player}&a!"
+  Uso_Correto: "&6[Stylessentials] &cUtilize &7/effect <player> <[clear] effect> <tempo> [nivel]&c!"
+  Tempo: "&6[Stylessentials] &cO tempo tem que ser maior ou igual a 1!"
+  Nivel: "&6[Stylessentials] &cO nivel tem que ser maior ou igual a 1!"
+  Aplicou_Efeito: "&6[Stylessentials] &bVoce aplicou o efeito {efeito} no nivel {nivel} por {tempo}s ao player {player}!"
+Enchant:
+  Uso_Correto: "&6[Stylessentials] &cUtilize /enchant <[clear] enchantment> [nivel]!"
+  Sem_Item: "&6[Stylessentials] &cVoce deve ter um item em sua mao para poder encantar!"
+  Enchants_Removidos: "&6[Stylessentials] &aOs enchants do item em sua mao foram removidos!"
+  Nao_Tem_Enchants: "&6[Stylessentials] &cEste item nao tem encantamentos!"
+  Enchant_Adicionado: "&6[Stylessentials] &bEnchant {enchant} nivel {level} foi adicionado ao item em sua mao!"
+Fly:
+  Desativado: "&6[Stylessentials] &cSey fly foi desativado!"
+  Ativado: "&6[Stylessentials] &bSey fly foi ativado!"
+  Desativou: "&6[Stylessentials] &aVoce desativou o fly do player &7{player}&a!"
+  Ativou: "&6[Stylessentials] &bVoce ativou o fly do player &7{player}&a!"
+Gamemode:
+  Sem_Permissao: "&6[Stylessentials] &cVoce nao tem permissao para utilizar este comando!"
+  Poucos_Argumentos: "&6[Stylessentials] &cUtilize &7/gamemode <0, 1, 2, 3, aventura, survival, criativo, espectador> [player]&c!"
+  GM_Alterado_Player: "&6[Stylessentials] &bVoce alterou o gamemode do player &7{player} &bpara &7{gamemode}&b!"
+  GM_Alterado: "&6[Stylessentials] &6Seu gamemode foi alterado para &7{gamemode}!"
+Speed:
+  Sem_Permissao: "&6[Stylessentials] &cVoce nao tem permissao para utilizar este comando!"
+  Poucos_Argumentos: "&6[Stylessentials] &cUtilize &7/speed <1-10> <player>&c!"
+  Nao_E_Numero: "&6[Stylessentials] &cInforme um numero na velocidade!"
+  Numero_Invalido: "&6[Stylessentials] &cA velocidade tem que ser maior que 0 e menor que 10!"
+  Velocidade_Alterada_Fly: "&6[Stylessentials] &bVelocidade do seu fly alterada para {velocidade}!"
+  Velocidade_Alterada_Walk: "&6[Stylessentials] &bVelocidade andando alterada para {velocidade}!"
+  Velocidade_Player_Alterada_Fly: "&6[Stylessentials] &eVoce alterou a velocidade do fly do player &7{player} &epara &7{velocidade}&e!"
+  Velocidade_Player_Alterada_Walk: "&6[Stylessentials] &eVoce alterou a velocidade andando do player &7{player} &epara &7{velocidade}&e!"
+Teleport:
+  Sem_Permissao: "&6[Stylessentials] &cVoce nao tem permissao para utilizar este comando!"
+  Poucos_Argumentos: "&6[Stylessentials] &cUtilize &7/teleport <player> &cou &7/teleport <player> <outroplayer> &cou &7/teleport X Y Z&c!"
+  Nao_E_Numero: "&6[Stylessentials] &cInforme somente numeros nas coordenadas!"
+  Teleportou_Player: "&6[Stylessentials] &bVoce foi teleportado ate o player &7{player}&b!"
+  Teleportou_Player_To_Player: "&6[Stylessentials] &eVoce teleportou o player &7{1} &eao player &7{2}&e!"
+  Teleportou_Coordenadas: "&6[Stylessentials] &bVoce foi teleportado ate &7X: {x}, Y: {y}, Z: {z}&b!"
+Invsee:
+  Sem_Permissao: "&6[Stylessentials] &cVoce nao tem permissao para utilizar este comando!"
+  Poucos_Argumentos: "&6[Stylessentials] &cUtilize &7/invsee <player>&c!"
+  Inventario_Aberto: "&6[Stylessentials] &bVoce abriu o inventario do player &7{player}&b!"

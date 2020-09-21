@@ -1,0 +1,7 @@
+name: HJungle
+version: 0.1b
+author: zFork
+main: me.zfork.hjungle.HJungle
+
+commands:
+    jungle:

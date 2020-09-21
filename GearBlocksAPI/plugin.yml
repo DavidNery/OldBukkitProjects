@@ -1,0 +1,5 @@
+name: GearBlocksAPI
+version: 0.1
+main: br.com.gearblocks.gearblocksapi.GearBlocksAPI
+author: zFork
+depend: [ProtocolLib]

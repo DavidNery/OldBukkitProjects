@@ -1,0 +1,8 @@
+name: SeekingMito
+version: 0.1b
+main: com.seekinggames.seekingmito.SeekingMito
+author: Dery
+
+commands:
+    mito:
+    setmito:

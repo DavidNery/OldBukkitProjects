@@ -1,0 +1,7 @@
+name: HMercado
+version: 0.1b
+author: Dery
+main: me.dery.hmercado.HMercado
+
+commands:
+    mercado:

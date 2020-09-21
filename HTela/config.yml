@@ -1,0 +1,23 @@
+Config:
+  Comandos:
+  - "ban {player} Deslogou no interrogamento"
+  - "banip {ip} Deslogou no interrogamento"
+  Spawn: "world 0 4 0"
+  Saida: "world 0 4 0"
+  Chat_Format: "&4&l[TELA] &6&l{player} >> &f&l{msg}"
+  
+Mensagem:
+  Erro:
+    Sem_Permissao: "&cVoce nao tem permissao bobinho =P"
+    Informe_o_Player: "&cNao seja batata. Informe um player =P"
+    Player_Offline: "&cQue loucura, parece que o player que voce esta tentando telar nao existe."
+    Nao_Esta_Telando: "&cParece que ninguem esta sendo telado no momento, nao foi possivel parar o telamento."
+    Se_Telar: "&cVoce nao pode se telar jovem '-'"
+  Sucesso:
+    Player_Morreu: "&aO player que voce estava telando morreu. Telamento interrompido!"
+    Player_Deslogou: "&cO player que voce estava telando deslogou. Providencias aplicadas!"
+    Sendo_Telado: "&4&lVOCE ESTA SENDO TELADO. CASO DESLOGUE PROVIDENCIAS SERAO APLICADAS!"
+    Nao_Esta_Sendo_Telado: "&bVoce nao esta mais sendo telado, aproveite a vida mother fucker!"
+    Nao_Esta_Telando: "&aVoce nao esta mais telando o player."
+    Setou_Spawn: "&bSpawn setado com sucesso!"
+    Setou_Saida: "&bSaida setada com sucesso!"

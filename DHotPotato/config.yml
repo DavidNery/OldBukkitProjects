@@ -1,0 +1,128 @@
+Config:
+  Key: '123456'
+  Auto_Start:
+    Ativar: true
+    Dias:
+    - 'segunda 15:10'
+    - 'terca 15:10'
+    - 'quarta 15:10'
+    - 'quinta 15:10'
+    - 'sexta 15:10'
+    - 'sabado 15:10'
+    - 'domingo 15:10'
+  Use_LegendChat: true
+  Tag: '&7[ReiPotator]'
+  Vencedor:
+  Premio: 50000.0
+  Anuncios: 2
+  Tempo_Anuncios: 5
+  Tempo_Explodir: 30
+  Min_Players: 2
+  Enable_FireWorks: true
+  Redefine_Time_To_Max: false
+  Remove_All_Potion_Effects: true
+  Tempos:
+    - '20->&6Batata Quente Explodindo Em {tempo} Segundos!'
+    - '10->&6Batata Quente Explodindo Em {tempo} Segundos!'
+  Force_Fly_Off: true
+  Force_GM_0: true
+  Ativar_Comandos_Vencedor: true
+  Comandos_Vencedor:
+    - 'effect {vencedor} SPEED 60 1'
+    - 'effect {vencedor} INCREASE_DAMAGE 60 1'
+    - 'give {vencedor} 322:1 1'
+  Comandos_Liberados:
+    - 'hotpotato'
+    - 'batataquente'
+    - 'potatohot'
+    - 'megafone'
+    - 'anuncio'
+    - 'anunciar'
+
+Mensagem:
+  Comandos_Player:
+  - '&6Comandos do Evento Batata Quente:'
+  - '&7/hotpotato entrar &f* &eEntre no Evento Batata Quente!'
+  - '&7/hotpotato sair &f* &eSaia do Evento Batata Quente!'
+  Comandos_Admin:
+  - '&7/hotpotato iniciar &f* &eInicie o Evento Batata Quente!'
+  - '&7/hotpotato parar &f* &ePare o Evento Batata Quente!'
+  - '&7/hotpotato setspawn &f* &eSete o spawn do Evento Batata Quente!'
+  - '&7/hotpotato setexit &f* &eSete a saida do Evento Batata Quente!'
+  - '&7/hotpotato setlobby &f* &eSete o lobby do Evento Batata Quente!'
+  - '&7/hotpotato reload &f* &eRecarregue o arquivo de locais!'
+  Comandos_Console:
+  - '&6Comandos do Evento Batata Quente:'
+  - '&7/hotpotato iniciar &f* &eInicie o Evento Batata Quente!'
+  - '&7/hotpotato parar &f* &ePare o Evento Batata Quente!'
+  - '&7/hotpotato reload &f* &eRecarregue o arquivo de locais!'
+  BC:
+    Iniciando:
+    - ''
+    - ''
+    - '&dEvento Batata Quente Iniciando!'
+    - '&dPara Entrar Utilize /hotpotato entrar!'
+    - '&dEste Evento Vale R${premio}!'
+    - '&dNo Momento Existem {players} Players no Evento!'
+    - '&dEvento Sendo Fechado em {tempo} Segundos ou {chamadas} Chamadas!'
+    - '&dEste Evento e PvP Off e Sem Risco de Morte!'
+    - ''
+    - ''
+    Iniciou:
+    - ''
+    - ''
+    - '&dEvento Batata Quente Iniciado!'
+    - '&dO Premio Deste Evento e R${premio}!'
+    - '&dBoa Sorte Aos {players} Players do Evento!'
+    - ''
+    - ''
+    Fechado:
+    - ''
+    - ''
+    - '&dEvento Batata Quente Fechado!'
+    - '&dO Premio Deste Evento Era De R${premio}!'
+    - '&d{players} Players Foram Teleportados Ate A Saida!'
+    - '&dMotivo: {motivo}!'
+    - ''
+    - ''
+    Vencedor:
+    - ''
+    - ''
+    - '&dEvento Batata Quente Finalizado!'
+    - '&dParabens Para O Player {vencedor}!'
+    - '&dO Premio Entregue A Ele Foi De R${premio}!'
+    - ''
+    - ''
+  Explodindo: '&6Batata Explodindo Em {tempo} Segundos!'
+  Explodiu: '&3Batata Explodiu E O Player &7{player} &3Foi Eliminado!'
+  Player_Pegou: '&6Player &8{potator} &6Pegou O Player &8{player} &6E Ele e O Novo Potator!'
+  Novo_Potator: '&7{player} &6E O Novo Potator!'
+  Erro:
+    Sem_Permissao: '&cVoce nao tem permissao para utilizar o comando &7/{0} {1}&c!'
+    Ja_Esta_Aberto: '&cO evento ja esta aberto ou ocorrendo!'
+    Nao_Esta_Aberto: '&cO evento nao esta aberto!'
+    Locais: '&cParece que ha algo de errado no arquivo locais.yml, cheque-o para o evento prosseguir!'
+    Esta_Aberto_Ocorrendo: '&cO evento esta aberto ou ocorrendo!'
+    Contem_Itens: '&cLimpe seu inventario para poder participar do evento!'
+    Ja_Esta: '&cVoce ja se encontra no Evento!'
+    Nao_Esta_No_Evento: '&cVoce nao se encontra no Evento!'
+    Player_Clicado_Nao_Esta: '&cO player que Voce clicou nao se encontra no Evento!'
+    No_Drop: '&cVoce nao pode dropar itens durante o Evento!'
+    PvP_Desativado: '&cPvP desativado durante o Evento!'
+    No_Teleport: '&cVoce nao pode se teletransportar durante o Evento!'
+    Comando_Bloqueado: '&cComando {comando} bloqueado durante o Evento!'
+    Proibido_Construir: '&cVoce nao pode construir durante o Evento!'
+  Sucesso:
+    Setou_Spawn: '&3Spawn setado em &7World:{world}, X:{x}, Y:{y}, Z:{z}&3!'
+    Setou_Saida: '&3Saida setada em &7World:{world}, X:{x}, Y:{y}, Z:{z}&3!'
+    Setou_Lobby: '&3Lobby setado em &7World:{world}, X:{x}, Y:{y}, Z:{z}&3!'
+    Fly_Desativado: '&eSeu Fly foi desativado para este evento!'
+    GM_Changed_0: '&eSeu GameMode foi definido para Survival para este evento!'
+    Entrou_No_Evento: '&6Voce entrou no Evento Batata Quente!'
+    Saiu: '&3Voce saiu do Evento Batata Quente!'
+    Reload: '&6Locais recarregados!'
+    
+Motivo:
+  Poucos_Players: 'Havia Poucos Players No Evento'
+  Staff_Cancelou: 'Um Staff Cancelou O Evento'
+  Nao_Houve_Vencedores: 'Nao Houve Nenhum Vencedor!'

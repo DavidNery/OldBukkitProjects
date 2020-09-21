@@ -1,0 +1,7 @@
+name: HLag
+version: 1.0
+main: me.zfork.hlag.HLag
+author: zfork
+
+commands:
+    hlag:

@@ -1,0 +1,7 @@
+name: HBossBar
+version: 1.0
+main: me.fork.hbossbar.HBossBar
+author: zFork
+
+commands:
+    bossbar:

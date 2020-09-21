@@ -1,0 +1,10 @@
+name: DKeyUtilities
+version: 1.0
+main: me.dery.dkeyutilities.DKeyUtilities
+author: [Dery]
+
+commands:
+    premio:
+    dkeys:
+    deletekey:
+    createkey:

@@ -1,0 +1,8 @@
+name: DTNTRain
+version: 1.0
+main: me.dery.DTNTRain
+author: [Dery]
+
+commands:
+    tntrain:
+     description: Comando principal!

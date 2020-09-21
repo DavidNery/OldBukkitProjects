@@ -1,0 +1,8 @@
+name: DHotPotato
+version: 1.0
+main: me.dery.dhotpotato.DHotPotato
+author: [Dery]
+
+commands:
+    hotpotato:
+     aliases: [batataquente, potatohot]

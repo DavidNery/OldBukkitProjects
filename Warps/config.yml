@@ -1,0 +1,44 @@
+GUI:
+  Ativar: false
+  Nome: "&6&lWARPS"
+  Tamanho: 54
+  Auto_Completar: true
+  Item_Ocupar: "item:160:15 lore:&7"
+  
+Config:
+  Permissao:
+    SetWarp: "craftzone.warps.admin.setwarp"
+    DelWarp: "craftzone.warps.admin.delwarp"
+  Permissao_Warps: "craftzone.warps.{warp}"
+  Ativar_JSON: true
+  Hover_Warp:
+  - "&7Clique para se teletransportar até a warp &c&l{warp}&7!"
+  Separador_Warps: "&7, "
+  Modo_Warp: "&c&l{warp}"
+  Avisar_Pode_TP_Novamente: true
+  Tempo_TP: 3
+  Tempo_Entre_TP: 3
+
+Mensagem:
+  Erro:
+    Warp_Invalida: "&c&lWARPS &7A warp informada não existe!"
+    Sem_Permissao: "&c&lWARPS &7Você não tem permissão para utilizar o comando &c&l{cmd}&7!"
+    Sem_Permissao_Warp: "&c&lWARPS &7Você não tem permissão para ir a essa warp!"
+    Sem_Warps: "&c&lWARPS &7Ainda não foram setados warps!"
+    Sem_Warps_Disponiveis: "&c&lWARPS &7Não existem warps disponíveis para você!"
+    Aguarde_Teleportar: "&c&lWARPS &7Aguarde mais &c&l{tempo} segundos &7para se teletransportar novamente!"
+    Mundo_Warp_Invalido: "&c&lWARPS &7O mundo dessa warp não existe!"
+    Uso_Correto: "&c&lWARPS &7Utilize &c&l{cmd} <warp>&7!"
+    Warp_Ja_Setado: "&c&lWARPS &7Já existe um warp com este nome!"
+    Warp_Nao_Setado: "&c&lWARPS &7Nenhum warp com esse nome setado!"
+    Se_Mecheu_Title: "&c&lTeleporte cancelado"
+    Se_Mecheu_SubTitle: "&4Você se moveu"
+  Sucesso:
+    Warps: "&a&lWARPS &7Warps disponíveis a você (&c&l{warpsqnt}&7): {warps}&7!"
+    Teleportando_Action: "&a&lTeleportando em &f&l{tempo} segundos&a&l!"
+    Teleportando_Title: "&a&lTeleportando para &7&l{warp}"
+    Teleportando_SubTitle: "&f&lNao se Mexa"
+    Teleportado: "&a&lWARPS &7Você foi teletransportado para warp &a&l{warp}&7!"
+    Pode_Teleportar_Novamente: "&b&lWARPS &7Você já pode se teletransportar novamente!"
+    Warp_Setado: "&a&lWARPS &7Warp &a&l{warp} &7setado com sucesso!"
+    Warp_Deletado: "&a&lWARPS &7Warp &a&l{warp} &7deletado com sucesso!"

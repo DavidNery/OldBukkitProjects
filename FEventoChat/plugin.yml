@@ -1,0 +1,7 @@
+name: FEventoChat
+version: 0.1
+main: me.zfork.feventochat.FEventoChat
+author: zfork
+
+commands:
+    eventochat:

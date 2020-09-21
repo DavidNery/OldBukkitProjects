@@ -1,0 +1,24 @@
+name: Stylessentials
+version: 0.0.1
+author: [Dery, biterr]
+main: com.plugin.stylessentials.Stylessentials
+
+commands:
+    fly:
+     description: Ative ou desative seu fly ou o fly de outro player!
+    gamemode:
+     description: Altere seu gamemode!
+     aliases: [gm]
+    gmc:
+     description: Altere seu Gamemode para criativo!
+    gms:
+     description: Altere seu Gamemode para survival!
+    gma:
+     description: Altere seu Gamemode para aventura!
+    speed:
+     description: Altere sua velocidade andando/voando!
+    teleport:
+     description: Se teleporte!
+     aliases: [tp, teleportar]
+    invsee:
+     description: Veja o inventario de um player!

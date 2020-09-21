@@ -1,0 +1,52 @@
+Mensagem:
+  Sem_Permissao: '&cVocê nao tem permissao para utilizar o comando &7/{0}&c!'
+  Sucesso:
+    Criou_Key_Free: '&eKey &7{key} &ecriada com sucesso!'
+    Criou_Key_Paga: '&eKey &7{key} &ecriada com o preco de &7R${preco} &epara ser usada!'
+    Deletou_Key: '&aVocê deletou a key &7{key} &acom sucesso!'
+    Pegou_Key: '&bVocê ativou a key &7{key} &bcom sucesso!'
+    Sem_Keys: '&cNao existe nenhuma key!'
+    Keys: '&3Keys: &7{keys}!'
+  Erro:
+    Poucos_Argumentos_Create: '&cUtilize &7/createkey <preco> <key> <quantidade>&c!'
+    Poucos_Argumentos_Delete: '&cUtilize &7/deletekey <key>&c!'
+    Poucos_Argumentos_Premio: '&cUtilize &7/premio <key>&c!'
+    Somente_Numeros: '&cUtilize somente números para definir o preço ou a quantidade de vezes que a key pode ser utilizada!'
+    Key_Ja_Existe: '&cA key &7{key} &cja existe!'
+    Menor_Que_Zero: '&cO preço da key tem que ser maior ou igual a 0!'
+    Key_Nao_Existe: '&cA key &7{key} &cnao existe!'
+    Sem_Money: '&cVocê precisa de mais &7{preciso} &cpara utilizar esta key!'
+    Quantidade_Maior_Que_Zero: '&cA quantidade de vezes que a key pode ser utilizada tem que ser maior que 0!'
+    Ja_Utilizou: '&cVocê já utilizou esta key!'
+
+Keys:
+  keyteste123:
+    Preco: 0.0
+    Quantidade: 1
+    Vezes_Utilizadas: 0
+    Usaram: {}
+    Items:
+    #id:data;qnt;enchant:level-enchant:level;chance
+    - '276;1;DAMAGE_ALL:10-DURABILITY:10;50'
+    - '276;1;;100'
+    - '322:1;64;;50'
+    - '322:1;1;;100'
+    Comandos:
+    #@p ou @player ou {player} retorna o nome do jogador!
+    - 'say @p Ativou a key {key} e ganhou vários itens e efeitos!'
+    - 'tell @p Você ativou a key {key}!'
+    Pocoes:
+    #poção tempo amplifidade
+    #Amplifidade: 1=2 , 2=3 , 3=4 etc.
+    - 'SPEED 60 1'
+    - 'REGENERATION 60 3'
+  keyteste123paga:
+    Preco: 5000.0
+    Quantidade: 2
+    Vezes_Utilizadas: 0
+    Usaram:
+    - 'Teste'
+    Comandos:
+    #@p ou @player ou {player} retorna o nome do jogador!
+    - 'say @p Ativou a key {key}!'
+    - 'tell @p Você ativou a key {key}!'

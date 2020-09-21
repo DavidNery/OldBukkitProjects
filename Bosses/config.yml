@@ -1,0 +1,57 @@
+Config:
+  HoraSpawnar: "15:00"
+  WitherSpawnLocation: "world 0 4 0"
+  DragonSpawnLocation: "world 0 4 0"
+  DragonName: "&c&lEnderDragon"
+  WitherName: "&e&lWither"
+  DragonHealth: 1500.0
+  WitherHealth: 1500.0
+  AvisarMatouDragon: true
+  AvisarMatouWither: true
+  TAGAll: "&c&l[Cacador]"
+  TAGDragon: "&5&l[Guerreiro]"
+  TAGWither: "&f&l[Monstreiro]"
+  PremioDragon: 50000
+  PremioWither: 50000
+  Tempo_Title: 3
+  
+Mensagem:
+  Sem_Permissao: "&cVocê não pode executar este comando!"
+  WitherSpawn_Setado: "&eLocal onde o Wither irá spawnar setado com sucesso!"
+  DragonSpawn_Setado: "&eLocal onde o EnderDragon irá spawnar setado com sucesso!"
+  Ninguem_Matou_Wither: "&cNinguém adquiriu a tag monstreiro :<"
+  Ninguem_Matou_Dragon: "&cNinguém adquiriu a tag guerreiro :<"
+  UltimoWitherKiller: "&aO player &f{killer} &afoi o último a matar o wither!"
+  UltimoDragonKiller: "&aO player &f{killer} &afoi o último a matar o enderdragon!"
+  Bosses_Spawnados: "&aBosses spawnados!"
+  DragonSpawnado:
+  - ""
+  - "&f&lBOSSES &eEnderDragon spawnado!"
+  - "&f&lBOSSES &eMate-o e ganhe tag!"
+  - ""
+  DragonAindaVivo:
+  - ""
+  - "&f&lBOSSES &cEnderDragon ainda vivo!"
+  - "&f&lBOSSES &cMate-o e ganhe tag!"
+  - ""
+  WitherSpawnado:
+  - ""
+  - "&f&lBOSSES &eWither spawnado!"
+  - "&f&lBOSSES &eMate-o e ganhe tag!"
+  - ""
+  WitherAindaVivo:
+  - ""
+  - "&f&lBOSSES &cWither ainda vivo!"
+  - "&f&lBOSSES &cMate-o e ganhe tag!"
+  - ""
+  MatouDragon:
+  - ""
+  - "&f&lBOSSES &f{player} &ematou o Enderdragon e ganhou tag!"
+  - ""
+  MatouWither:
+  - ""
+  - "&f&lBOSSES &f{player} &ematou o Wither e ganhou tag!"
+  - ""
+  
+Last_KillerWither: "nenhum"
+Last_KillerDragon: "nenhum"

@@ -1,0 +1,313 @@
+Config:
+  Tempo_Verificar: 60
+  Habilitar_Comando_DesbanirVIP: true
+  v1_7:
+  - "&6Tempo: &f{tempo}"
+  - "&6Grupo: &f{grupo}"
+  Separador_Keys: "&f, "
+  Formato_Keys: "&b{key}"
+  Mail:
+    Ativar: true
+    #Lista de SMTPs de emails conhecidos + Port:
+    #Gmail: smtp.gmail.com |--- Porta: 587 ---|
+    #Yahoo: smtp.mail.yahoo.com |--- Porta: 465 ---|
+    #Hotmail: smtp.live.com |--- Porta: 587 ---|
+    #Caso o seu smtp seja do gmail, o email abaixo so podera ser do gmail e assim por diante!
+    SMTPServer: "smtp.gmail.com"
+    SMTPServerPort: "587"
+    Email: "meuemaildogmail@gmail.com"
+    Nome: "Meu Servidor"
+    Senha: "senhadomeuemail"
+    Assunto: "Seu {vip} {comprador} :D"
+    Mensagem:
+    - "<p align='center'><a href='http://blog.mrpowergamerbr.com' target='parent'><img src='http://lori.mrpowergamerbr.com/sharex/javaw_2016-07-31_10-23-09.png' width='200' height='200' alt='Aqui tem uma imagem bem pika' title='Creditos ao MrPowerGamerBR pela imagem!'></a></p>"
+    - "<br><font size=3 face='Verdana'>Ola <strong>{comprador}</strong>!</font>"
+    - "<br><br><font size=2 face='Verdana'>Voce esta recebendo este email porque alguem ativou seu <strong>{vip}</strong> no MEU SERVIDOR!"
+    - "<br>O vip foi ativado em <strong>{ativado}</storng>!"
+    - "<br>Ele foi ativado pelo player <strong>{player}</strong>!"
+    - "<br>Ele dura até <strong>{tempo}</strong>!"
+    - "<br>O código usado por ele foi: <strong><font color='red'>{codigo}</font><strong>!</font>"
+    - "<p align='right'><br><br><font size=3 face='Verdana' align='right'>Atenciosamente, equipe MEU SERVIDOR!</font></p>"
+  Debug:
+    Ativar: true
+    Staffs: true
+    Console: true
+    Removendo: "&6&l[FVIP] &7Removendo VIPS..."
+    Removeu: "&6&l[FVIP] &7VIPS removidos!"
+  Mural_Cabecas:
+    Usar_Key: true
+    PagSeguro: true
+    PayPal: true
+    MercadoPago: true
+  VendaKey:
+    Anuncios: 4
+    Tempo_Anuncios: 25
+    Preco_Minimo: 100000
+    Preco_Maximo: 1000000
+    Delay: 60
+    Som_Ao_Comprar_Key: true
+    Som_Ao_Admin_Cancelar_Key: true
+    Som: "LEVEL_UP"
+    Som_Cancelar: "ANVIL_USE"
+  Grupos_VIPs:
+    VIP:
+      Ativar_VIP:
+        Ativar_Title: false
+        Ativar_Subtitle: false
+        FadeIn: 1
+        Stay: 3
+        FadeOut: 1
+        Title: "&6Parabéns {player}!"
+        SubTitle: "&7Você ativou seu &6{vip} &7com sucesso!"
+    VIP+:
+      Ativar_VIP:
+        Ativar_Title: true
+        Ativar_Subtitle: true
+        FadeIn: 1
+        Stay: 3
+        FadeOut: 1
+        Title: "&6Parabéns {player}!"
+        SubTitle: "&7Você ativou seu &6{vip} &7com sucesso!"
+    VIP++:
+      Ativar_VIP:
+        Ativar_Title: true
+        Ativar_Subtitle: true
+        FadeIn: 1
+        Stay: 3
+        FadeOut: 1
+        Title: "&6Parabéns {player}!"
+        SubTitle: "&7Você ativou seu &6{vip} &7com sucesso!"
+  Comandos_Executados: 
+  - "pex user {player} group set {grupo}"
+  - "money give {player} 50000"
+  Comandos_Executados_Perder:
+  - "pex user {player} group set Membro"
+  - "money take {player} 50000"
+  Comandos_Desbanir:
+  - "unban {player}"
+  - "unbanip {player}"
+  Caracteres_Key: "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+  Tamanho_Key: 15
+  PagSeguro:
+    Ativar: false
+    Email: "suporte@lojamodelo.com.br"
+    Token: "95112EE828D94278BD394E91C4388F20"
+  PayPal:
+    Ativar: false
+    Nick: "username"
+    Senha: "senha"
+    Signature: "signarute"
+  MercadoPago:
+    Ativar: false
+    Client_ID: "seuclientid"
+    Client_SECRET: "seuclientsecret"
+  Placa_Cabeca_Tempo_Format: "dd/MM/yy"
+  Placa_Cabeca_Ativado_Format: "dd/MM/yy"
+  Placa_Cabeca:
+  - "&c&l{player}"
+  - "&fAté: &c{tempo}"
+  - "&fAtivou: &c{ativado}"
+  - "&fVIP: &c{vip}"
+  Items:
+  - "grupo:VIP item:267 qnt:1 enchants:afiada:3,inquebravel:1"
+  - "grupo:VIP item:322:1 qnt:1"
+  - "grupo:VIP item:306 qnt:1 enchants:protecao:4,inquebravel:3"
+  - "grupo:VIP item:307 qnt:1 enchants:protecao:4,inquebravel:3"
+  - "grupo:VIP item:308 qnt:1 enchants:protecao:4,inquebravel:3"
+  - "grupo:VIP item:309 qnt:1 enchants:protecao:4,inquebravel:3"
+  - "grupo:VIP pocao:forca qnt:1 amplificador:2 duracao:60 splash:false"
+  - "grupo:VIP pocao:velocidade qnt:1 amplificador:2 duracao:60 splash:false"
+  - "grupo:VIP cabeca:zFork,notch qnt:1"
+  - "grupo:VIP+ item:276 qnt:1 enchants:afiada:3,inquebravel:1"
+  - "grupo:VIP+ item:322:1 qnt:10"
+  - "grupo:VIP+ item:310 qnt:1 enchants:protecao:3,inquebravel:2"
+  - "grupo:VIP+ item:311 qnt:1 enchants:protecao:3,inquebravel:2"
+  - "grupo:VIP+ item:312 qnt:1 enchants:protecao:3,inquebravel:2"
+  - "grupo:VIP+ item:313 qnt:1 enchants:protecao:3,inquebravel:2"
+  - "grupo:VIP+ pocao:forca qnt:2 amplificador:2 duracao:60 splash:true"
+  - "grupo:VIP+ pocao:velocidade qnt:2 amplificador:2 duracao:60 splash:false"
+  - "grupo:VIP+ cabeca:zFork,notch qnt:1"
+  - "grupo:VIP++ item:276 qnt:1 enchants:afiada:5,aspecto_flamejante:2,inquebravel:3"
+  - "grupo:VIP++ item:276 qnt:1 enchants:afiada:10,aspecto_flamejante:5,inquebravel:10 chance:25"
+  - "grupo:VIP++ item:322:1 qnt:64"
+  - "grupo:VIP++ item:310 qnt:1 enchants:protecao:4,inquebravel:3"
+  - "grupo:VIP++ item:311 qnt:1 enchants:protecao:4,inquebravel:3"
+  - "grupo:VIP++ item:312 qnt:1 enchants:protecao:4,inquebravel:3"
+  - "grupo:VIP++ item:313 qnt:1 enchants:protecao:4,inquebravel:3"
+  - "grupo:VIP++ pocao:forca qnt:10 amplificador:2 duracao:60 splash:true"
+  - "grupo:VIP++ pocao:velocidade qnt:10 amplificador:2 duracao:60 splash:true"
+  - "grupo:VIP++ cabeca:zFork,notch qnt:1"
+  - "grupo:VIP,VIP+,VIP++ xp:30"
+  - "grupo:VIP,VIP+,VIP++ cmd:say um comando qualquer :>"
+
+Mensagem:
+  Erro:
+    Sem_Permissao: "&6&l[FVIP] &cVoce não tem permissão para utilizar este comando!"
+    Nao_E_Numero: "&6&l[FVIP] &cUtilize apenas numeros!"
+    Menor_Que_Um: "&6&ç[FVIP] &cInforme um número maior ou igual a 1!"
+    Grupo_VIP_Nao_Existe: "&6&l[FVIP] &cO grupo vip informado não existe!"
+    Player_Offline: "&6&l[FVIP] &cEste player não esta online!"
+    Nao_Foi_Possivel_Fazer_Acao: "&6&l[FVIP] &cNão foi possível fazer esta ação!"
+    Player_Nao_Eh_VIP: "&6&l[FVIP] &cO player &7{player} &cnão é vip!"
+    Voce_Nao_Eh_VIP: "&6&l[FVIP] &cVocê não é vip!"
+    Nao_Eh_VIP: "&6&l[FVIP] &cO player &7{player} &cnão é vip!"
+    Nao_Esta_Usando_VIP: "&6&l[FVIP] &cVocê não está usando nenhum vip!"
+    Key_Nao_Existe: "&6&l[FVIP] &cEsta key não existe!"
+    Nenhuma_Key_Apagada: "&6&l[FVIP] &cNenhuma das keys informadas existe!"
+    Inv_Tem_Item: "&6&l[FVIP] &cSeu inventario contém itens, limpe-o para poder ativar o vip!"
+    Aguarde_Ativar_VIP: "&6&l[FVIP] &cVocê ja tentou ativar um vip recentemente. Aguarde mais &7{duracao} segundos &cpara tentar novamente!"
+    PagSeguro_Desativado: "&6&l[FVIP] &cO PagSeguro não esta ativado!"
+    PayPal_Desativado: "&6&l[FVIP] &cO PayPal não esta ativado!"
+    MercadoPago_Desativado: "&6&l[FVIP] &cO MercadoPago não esta ativado!"
+    Codigo_Ja_Usado: "&6&l[FVIP] &cEste codigo já foi utilizado pelo player &7{player} &cem &7{dia}&c!"
+    Codigo_Informado_Invalido: "&6&l[FVIP] &cO código que voce informou é inválido!"
+    Codigo_Invalido: "&6&l[FVIP] &cO código informado é inválido!"
+    Codigo_Nao_Pago: "&6&l[FVIP] &cEste código ainda não foi pago!"
+    Nao_Eh_Pagamento_VIP: "&6&l[FVIP] &cEste código não é de um pagamento VIP!"
+    Produto_Invalido: "&6&l[FVIP] &cEste produto é inválido!"
+    Player_Nao_Tem_VIP: "&6&l[FVIP] &cEste player não contém esse grupo!"
+    Nao_Tem_VIP: "&6&l[FVIP] &cVocê não tem permissao para usar esse grupo!"
+    Ja_Esta_No_Grupo: "&6&l[FVIP] &cVocê já está usando o vip &7{vip}&c!"
+    Evento_Cancelado_Plugin_Externo: "&6&l[FVIP] &cAção cancelada por plugin externo!"
+    Cabecas_Nao_Existe: "&6&l[FVIP] &cO arquivo &7cabecas.yml &cnão foi encontrado!"
+    Olhe_Para_Um_Bloco: "&6&l[FVIP] &cOlhe para um bloco para utilizar o comando &7/setcabeca&c!"
+    Cabeca_Ja_Setada: "&6&l[FVIP] &cJá existe uma cabeça setada neste local!"
+    Placa_Ja_Setada: "&6&l[FVIP] &cJá existe uma placa setada neste local!"
+    Nao_Precisa_Seta_Placa: "&6&l[FVIP] &cNão há necessidade de setar uma placa!"
+    Posicao_Invalida: "&6&l[FVIP] &cA posição tem que ser maior que &71 &ce maior que &7{max}&c!"
+    Preco_Invalido: "&6&l[FVIP] &cInforme um preço válido!"
+    Key_Ja_Sendo_Vendida: "&6&l[FVIP] &cEsta key já está sendo vendida pelo player &7{player}&c!"
+    Ja_Esta_Vendendo: "&6&l[FVIP] &cVocê já está vendendo outra key, aguarde para vender essa!"
+    Preco_Alto_Ou_Baixo: "&6&l[FVIP] &cO preço da venda deve ser maior que &7R$100.000,00 &ce menor que &7R$1.000.000,00&c!"
+    Aguarde_Vender_Key: "&6&l[FVIP] &cAguarde mais &7{tempo} segundos &cpara vender outra key!"
+    Informe_O_Player: "&6&l[FVIP] &cInforme o player na qual você quer comprar a key!"
+    Si_Mesmo: "&6&l[FVIP] &cVocê não pode comprar uma key a si mesmo!"
+    Nao_Esta_Vendendo: "&6&l[FVIP] &cEste player não está vendendo nenhuma key!"
+    Sem_Dinheiro_Suficiente: "&6&l[FVIP] &cVocê precisa de &7R${preco} &cpara comprar esta key!"
+    Voce_Nao_Esta_Vendendo: "&6&l[FVIP] &cVocê não está vendendo nenhuma key!"
+    DesbanirVIP_Desabilitado: "&6&l[FVIP] &cEste comando foi desabilitado por um admin!"
+    Player_Nao_Existe: "&6&l[FVIP] &cO player informado nunca entrou no servidor!"
+    Player_Nao_Banido: "&6&l[FVIP] &cParece que o player você informou não está banido!"
+    Sem_Grupo_Desbanir: "&6&l[FVIP] &cVocê precisa estar em um grupo vip para poder usar esse comando!"
+    Nao_Pode_Desbanir: "&6&l[FVIP] &cParece que você já desbaniu um player com este vip!"
+    Email_Nao_Enviado: "&6&l[FVIP] &cNão foi possível enviar o seu email!"
+    Uso_Correto:
+      Dar_VIP: "&6&l[FVIP] &cUtilize &7/darvip <player> <dias> <grupo>&c!"
+      Tirar_VIP: "&6&l[FVIP] &cUtilize &7/tirarvip <player> [grupo]&c!"
+      Gerar_Key: "&6&l[FVIP] &cUtilize &7/gerarkey <dias> <grupo> [quantidade]&c!"
+      Remover_Key: "&6&l[FVIP] &cUtilize &7/removerkey <key>&c!"
+      Usar_Key: "&6&l[FVIP] &cUtilize &7/usarkey <key>&c!"
+      Ativar_VIP: "&6&l[FVIP] &cUtilize &7/ativarvip <codigo de transacao>&c!"
+      Key_Info:  "&6&l[FVIP] &cUtilize &7/keyinfo <key>&c!"
+      Dias_VIP: "&6&l[FVIP] &cUtilize &7/diasvip [player] [grupo]&c!"
+      Trocar_VIP: "&6&l[FVIP] &cUtilize &7/trocarvip <grupo>&c!"
+      Vender_Key: "&6&l[FVIP] &cUtilize &7/venderkey <key> <preco>&c!"
+      DesbanirVIP: "&6&l[FVIP] &cUtilize &7/desbanirvip <player>&c!"
+  Sucesso:
+    Deu_VIP: "&6&l[FVIP] &3Você deu &b{grupo} &3ao player &b{player} &3até &b{tempo}&3!"
+    Ganhou_VIP: "&6&l[FVIP] &2Você ganhou &a{grupo} &2do staff &a{staff} &2até &a{tempo}&2!"
+    Tirou_VIP: "&6&l[FVIP] &3Você tirou o vip do player &b{player}&3!"
+    Tirou_Grupo_VIP: "&6&l[FVIP] &3Você tirou o vip &b{grupo} &3do player &b{player}&3!"
+    Perdeu_VIP: "&6&l[FVIP] &2O staff &a{staff} &2tirou seu vip!"
+    Perdeu_Grupo_VIP: "&6&l[FVIP] &2O staff &a{staff} &2tirou seu vip &a{grupo}&2!"
+    Dias_Dias: "&6&l[FVIP] &eSeu vip do grupo &e&l{vip} &eacaba em &e&l{acaba}&e!"
+    Dias_Dias_Outro: "&6&l[FVIP] &eO vip do player &f{player} &eacaba em: &e&l{acaba}"
+    Menos_De_Um_Minuto: "menos de um minuto"
+    Key_Gerada: "&6&l[FVIP] &3Key &b{key} &3gerada com sucesso!"
+    Keys_Geradas:
+    - "&6&l[FVIP] &3Foram geradas &b{qnt} &3keys!"
+    - "&6&l[FVIP] &eKeys: &f{keys}&e!"
+    Key_Apagada: "&6&l[FVIP] &2Key &a{key} &2apagada!"
+    Todas_As_Keys_Apagadas: "&6&l[FVIP] &2Todas as keys foram apagadas!"
+    Keys_Apagadas:
+    - "&6&l[FVIP] &2Foram apagadas &a{qnt} &2keys!"
+    - "&6&l[FVIP] &fKeys: &7{keys}&f!"
+    Keys: "&6&l[FVIP] &3Keys geradas ate o momento: &b{keys}&3!"
+    Player_Perdeu_VIP: "&6&l[FVIP] &eAcabou o VIP &e&l{vip} &edo player &e&l{player}&e!"
+    Usou_Key: "&6&l[FVIP] &3Voce acaba de ativar o vip &b{grupo} &3ate &b{tempo}&3. Parabéns!"
+    Key_Info: "&6&l[FVIP] &3Informações da key &b{key}&3: &f{info}"
+    Verificando_Codigo: "&6&l[FVIP] &bVerificando se o código que você informou é válido..."
+    Grupo_Alterado: "&6&l[FVIP] &bVocê alterou seu grupo para &3{vip} &bcom sucesso!"
+    Cabeca_Setada: "&6&l[FVIP] &aLocal para cabeca setado com sucesso!"
+    Placa_Setada: "&6&l[FVIP] &aLocal para placa setado com sucesso!"
+    Desbaniu: "&6&l[FVIP] &bVocê desbaniu o player &f{player} &butilizando seu privilégio VIP!"
+    VIP_Ativado: "&6&l[FVIP] &2Você ativou seu &f{vip} &2até &f{tempo} &2com sucesso!"
+    Enviando_Email: "&6&l[FVIP] &7Enviando os dados para o seu email!"
+    Email_Enviado: "&6&l[FVIP] &fFoi enviado um email para sua conta com os dados da ativação!"
+    Ativou_VIP:
+    - ""
+    - ""
+    - "&5&l==================================="
+    - "&dTemos um novo VIP no servidor!"
+    - "&dParabens ao player &f{player} &dpor ter ativado um vip &f{grupo} &date &f{tempo}&d!"
+    - "&5&l==================================="
+    - ""
+    - ""
+    Acabou_VIP:
+    - ""
+    - ""
+    - "&5&l==================================="
+    - "&dSeu VIP &f{vip} &dacabou &f{player}&d!"
+    - "&dPara comprar outro VIP acesse &fwww.meusite.com.br/vip&d!"
+    - "&5&l==================================="
+    - ""
+    - ""
+  VendaKey:
+    Iniciou:
+    - ""
+    - ""
+    - "&5&l==================================="
+    - "&f{vendedor} &destá vendendo uma key VIP!"
+    - "&dVIP: &f{grupo}&d!"
+    - "&dTempo: &f{tempokey} dias&d!"
+    - "&dPreco: &fR${preco}&d!"
+    - "&dVenda acabando em &f{tempo} segundos&d!"
+    - "&dPara comprar utilize &f/comprarkey {vendedor}&d!"
+    - "&5&l==================================="
+    - ""
+    - ""
+    Acabou:
+    - ""
+    - ""
+    - "&5&l==================================="
+    - "&dAcabou o tempo de venda da key do player &f{vendedor}&d!"
+    - "&dEsta key pertencia ao vip &f{grupo}&d!"
+    - "&dEsta key durava &f{tempokey} dias&d!"
+    - "&dEle estava vendendo a key por &fR${preco}&d!"
+    - "&5&l==================================="
+    - ""
+    - ""
+    Cancelou:
+    - ""
+    - ""
+    - "&5&l==================================="
+    - "&f{vendedor}&d cancelou a venda da sua key!"
+    - "&dEsta key pertencia ao vip &f{grupo}&d!"
+    - "&dEsta key durava &f{tempokey} dias&d!"
+    - "&dEle estava vendendo a key por &fR${preco}&d!"
+    - "&5&l==================================="
+    - ""
+    - ""
+    Admin_Cancelou:
+    - ""
+    - ""
+    - "&5&l==================================="
+    - "&f{admin} &dcancelou a venda da key do player &f{vendedor}&d!"
+    - "&dEsta key pertencia ao vip &f{grupo}&d!"
+    - "&dEsta key durava &f{tempokey} dias&d!"
+    - "&dEle estava vendendo a key por &fR${preco}&d!"
+    - "&5&l==================================="
+    - ""
+    - ""
+    Comprou:
+    - ""
+    - ""
+    - "&5&l==================================="
+    - "&f{player} &dcomprou a key do player &f{vendedor}&d!"
+    - "&dEsta key pertence ao vip &f{grupo}&d!"
+    - "&dEsta key dura &f{tempokey} dias&d!"
+    - "&dEsta key foi vendida por &fR${preco}&d!"
+    - "&6&lSua key é &f&l{key}&6&l!"
+    - "&5&l==================================="
+    - ""
+    - ""

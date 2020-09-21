@@ -1,0 +1,142 @@
+Config:
+  Invs:
+    Options_Inv_Name: "&e&lFechar report"
+    Previous_Item: "item:77 nome:&c&lPágina_anterior lore:_&7|-Clique_para_ir_a_página_anterior."
+    Next_Item: "item:77 nome:&b&lPróxima_página lore:_&7|-Clique_para_ir_a_próxima_página."
+    Back_Item: "item:76 nome:&c&lVoltar lore:_&7|-Voltar_ao_menu_de_reports."
+    Confirm_Item: "item:368 nome:&c&lConfirmar lore:_&7|-Fechar_report."
+    Cancel_Item: "item:355 nome:&c&lCancelar lore:_&7|-Cancelar"
+    Del_Item: "item:152 nome:&c&lDeletar lore:_&7|-Deletar_report"
+  Staffs:
+    Report_Hover:
+    - "&6&lREPORT &7Parece que temos um novo report!"
+    - "&6&lREPORT &7Clique para ver os reports do player &c&l{reportado}&7!"
+  Estilo_Motivo: "&a&l{motivo}"
+  Separador_Motivo: "&f, "
+  Reports_Validos:
+    Hack:
+      Descricao:
+      - "&c&l&nHACK"
+      - " &7|- Aqui entra todos os tipos de hacks conhecidos, exemplo:"
+      - "   &7|- FF"
+      - "   &7|- Fly"
+      - "   &7|- Auto soup"
+      - "   &7|- God"
+      - " &7|- Clique aqui se você viu algum player utilizando hack!"
+      Report_Item: "item:7 nome:&0&l{player} lore:&c&lMOTIVO:_&7{motivo}@&c&lVEZES_REPORTADO:_&7{motivoqnt}@&c&lÚLTIMO_REPORTADOR:_&7{lastreporter}"
+    Grief:
+      Descricao:
+      - "&c&l&nGRIEF"
+      - " &7|- Caso tenha visto algum player grifando o servidor, clique aqui!"
+      - " &7|- Exemplos de grief:"
+      - "   &7|- Colocar água/lava nas minas."
+      - "   &7|- Fazer desenhos inadequados nas minas."
+      Report_Item: "item:2 nome:&0&l{player} lore:&c&lMOTIVO:_&7{motivo}@&c&lVEZES_REPORTADO:_&7{motivoqnt}@&c&lÚLTIMO_REPORTADOR:_&7{lastreporter}"
+    Bug_Bloco:
+      Descricao:
+      - "&c&l&nBUG BLOCO"
+      - " &7|- Viu algum player bugando bloco? Clique aqui!"
+      Report_Item: "item:1 nome:&0&l{player} lore:&c&lMOTIVO:_&7{motivo}@&c&lVEZES_REPORTADO:_&7{motivoqnt}@&c&lÚLTIMO_REPORTADOR:_&7{lastreporter}"
+    Ofensa_a_staff:
+      Descricao:
+      - "&c&l&nOFENSA A STAFF"
+      - " &7|- Caso tenha visto algum player ofendendo a staff, clique aqui!"
+      Report_Item: "item:23 nome:&0&l{player} lore:&c&lMOTIVO:_&7{motivo}@&c&lVEZES_REPORTADO:_&7{motivoqnt}@&c&lÚLTIMO_REPORTADOR:_&7{lastreporter}"
+    Ofensa_ao_servidor:
+      Descricao:
+      - "&c&l&nOFENSA AO SERVIDOR"
+      - " &7|- Caso tenha visto algum player ofendendo o servidor, clique aqui!"
+      Report_Item: "item:29 nome:&0&l{player} lore:&c&lMOTIVO:_&7{motivo}@&c&lVEZES_REPORTADO:_&7{motivoqnt}@&c&lÚLTIMO_REPORTADOR:_&7{lastreporter}"
+    Ofensa_geral:
+      Descricao:
+      - "&c&l&nOFENSA GERAL"
+      - " &7|- Caso tenha visto algum player ofendendo outro, clique aqui!"
+      Report_Item: "item:35:7 nome:&0&l{player} lore:&c&lMOTIVO:_&7{motivo}@&c&lVEZES_REPORTADO:_&7{motivoqnt}@&c&lÚLTIMO_REPORTADOR:_&7{lastreporter}"
+    Trap:
+      Descricao:
+      - "&c&l&nTRAP"
+      - " &7|- Tem algum player fazendo trap no servidor? Clique aqui!"
+      Report_Item: "item:158 nome:&0&l{player} lore:&c&lMOTIVO:_&7{motivo}@&c&lVEZES_REPORTADO:_&7{motivoqnt}@&c&lÚLTIMO_REPORTADOR:_&7{lastreporter}"
+    Roubo:
+      Descricao:
+      - "&c&l&nROUBO"
+      - " &7|- Viu algum player roubando outro no servidor? Clique aqui!"
+      Report_Item: "item:166 nome:&0&l{player} lore:&c&lMOTIVO:_&7{motivo}@&c&lVEZES_REPORTADO:_&7{motivoqnt}@&c&lÚLTIMO_REPORTADOR:_&7{lastreporter}"
+    Palavreado_Vulgar:
+      Descricao:
+      - "&c&l&nPALAVREADO VULGAR"
+      - " &7|- Palavras de baixo calão não são aceitas em nosso servidor!"
+      - " &7|- Qualquer palavra deste nível usada em nosso servidor gera punição!"
+      - " &7|- Exemplo de palavras:"
+      - "   &7|- porr@"
+      - "   &7|- filho da put@"
+      - " &c&lOBS.: &7Palavras como &f&ngay&7, &f&nviado &7e derivadas, "
+      - "         &7dependendo do modo como foram usadas, não geram punições!"
+      Report_Item: "item:90 nome:&0&l{player} lore:&c&lMOTIVO:_&7{motivo}@&c&lVEZES_REPORTADO:_&7{motivoqnt}@&c&lÚLTIMO_REPORTADOR:_&7{lastreporter}"
+    Fake:
+      Descricao:
+      - "&c&l&nFAKE"
+      - " &7|- Encontrou um player se passando por outro? Clique aqui."
+      Report_Item: "item:122 nome:&0&l{player} lore:&c&lMOTIVO:_&7{motivo}@&c&lVEZES_REPORTADO:_&7{motivoqnt}@&c&lÚLTIMO_REPORTADOR:_&7{lastreporter}"
+    Chat_Fake:
+      Descricao:
+      - "&c&l&nCHAT FAKE"
+      - " &7|- Viu um player se passando por alguém da staff ou pelo servidor? Clique aqui!"
+      Report_Item: "item:154 nome:&0&l{player} lore:&c&lMOTIVO:_&7{motivo}@&c&lVEZES_REPORTADO:_&7{motivoqnt}@&c&lÚLTIMO_REPORTADOR:_&7{lastreporter}"
+    Tentativa_de_Invasao:
+      Descricao:
+      - "&c&l&nTENTATIVA DE INVASÃO"
+      - " &7|- Um player tentou invadir sua ou outra conta de algúem do servidor? Clique aqui!"
+      - " &c&lOBS.: &7pedir a senha de outro player também conta como tentativa de invasão!"
+      Report_Item: "item:131 nome:&0&l{player} lore:&c&lMOTIVO:_&7{motivo}@&c&lVEZES_REPORTADO:_&7{motivoqnt}@&c&lÚLTIMO_REPORTADOR:_&7{lastreporter}"
+  Tempo_Reportar: 60
+  Tempo_Remover: 1
+  Report_Design: "&c&lMotivo: {report} &f&l- &7&lVezes reportado: {qnt}"
+  ClosedReport_Design: "&7&lMotivo: {report} &c&l- &f&lVezes reportado: {qnt}"
+  Heads_Name: "&f&l{player}"
+  ClosedHeads_Name: "&c&l{player}"
+  Heads_Lore:
+  - "&c&lREPORTS DO PLAYER &f&l{player}&c&l(&f&l{reportswatching}&c&l/&f&l{reportsqnt}&c&l):"
+  - "{reports}"
+  - ""
+  - "&eÚltimo report por: &f&l{lastreporter}"
+  - "&eReportado em &f&l{data}&e!"
+  ClosedHeads_Lore:
+  - "&c&lREPORTS DO PLAYER &f&l{player}&c&l(&f&l{reportswatching}&c&l/&f&l{reportsqnt}&c&l):"
+  - "{reports}"
+    
+Mensagem:
+  Erro:
+    Sem_Permissao:
+      Reportar: "&c&lREPORT &7Você não tem permissão para reportar um player!"
+      Reports: "&c&lREPORT &7Você não tem permissão para ver os reports!"
+    Uso_Correto_Reportar: "&c&lREPORT &7Utilize &c/reportar <player> <motivo>&7!"
+    Aguarde_Reportar: "&c&lREPORT &7Aguarde mais &c{tempo} segundos &7para reportar outro player!"
+    Si_Mesmo: "&c&lREPORT &7Você não pode se reportar!"
+    Player_Nao_Existe: "&c&lREPORT &7Parece que este player não existe em nosso servidor :<"
+    Motivo_Valido:
+    - "&c&lREPORT &7Informe um motivo válido!"
+    - "&c&lREPORT &fLista de motivos disponíveis: {motivos}&f."
+    Player_Nao_Reportado: "&c&lREPORT &7Este player não tem histórico de reports!"
+  Sucesso:
+    Reportou: "&a&lREPORT &7Você reportou o player &c{player} &7por &c{motivo}&7!"
+    Reportou_Staff:
+    - ""
+    - "&f&l============ &c&lNOVO REPORT &f&l============"
+    - "&7Player &c&l{player} &7reportou &c&l{reportado} &7por &c&l{motivo}&7!"
+    - "&9O player &c&l{reportado} &9tem &c&l{reportsqnt} &9reports!"
+    - "&cEle foi reportado &7{reportsqntmotivo} &cpor este mesmo motivo!"
+    - "&f&l============ &c&lNOVO REPORT &f&l============"
+    - ""
+    Menu_Aberto:
+    - "&b&lREPORT &7Menu de reports aberto com sucesso!"
+    - "&e&lREPORT &7Total de players reportados: &f&l{reportstotal}&7!"
+    Closed_Menu_Aberto:
+    - "&b&lREPORT &7Menu de reports fechados aberto com sucesso!"
+    Menu_Aberto_Player:
+    - "&b&lREPORT &7Menu de reports do player &b&l{player} &7aberto com sucesso!"
+    - "&e&lREPORT &7Total de reports deste player: &f&l{reportstotal}&7!"
+    Report_Fechado: "&b&lREPORT &7Report fechado com sucesso!"
+    Report_Deletado: "&4&lREPORT &7Report deletado com sucesso!"
+    Acao_Cancelada: "&e&lREPORT &7Ação cancelada!"
+    Pagina_Nao_Existe_Mais: "&a&lREPORT &7A página que você estava olhando não existe mais!"

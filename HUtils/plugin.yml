@@ -1,0 +1,22 @@
+name: HUtils
+version: 1.0
+main: me.zfork.hutils.HUtils
+author: zfork
+
+commands:
+    buff:
+    megafone:
+    ajuda:
+    report:
+     aliases: [reportar]
+    fumar:
+    check:
+     aliases: [checar]
+    ping:
+    lixeira:
+    lanterna:
+    head:
+    bc:
+     aliases: [broadcast]
+    enchant:
+    banitem:

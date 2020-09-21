@@ -1,0 +1,7 @@
+name: FArenas
+version: 0.1
+author: zFork
+main: me.zfork.farenas.FArenas
+
+commands:
+    arena:
